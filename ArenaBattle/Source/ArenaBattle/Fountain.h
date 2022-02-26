@@ -2,7 +2,8 @@
 
 #pragma once
 
-#include "EngineMinimal.h"
+#include "ArenaBattle.h"
+#include "GameFramework/RotatingMovementComponent.h"
 #include "GameFramework/Actor.h"
 #include "Fountain.generated.h"
 
@@ -17,7 +18,10 @@ public:
 
 protected:
 	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	virtual void BeginPlay() override; // override가 없어도 정상적으로 작동 가능. 상속관계를 나타내기 위해 사용. 컴파일 에러 방지 목적
+	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+	virtual void PostInitializeComponents() override;
+
 
 public:	
 	// Called every frame
@@ -37,5 +41,13 @@ public:
 
 	UPROPERTY(EditAnywhere, Category=ID)
 	int32 ID;
+
+	UPROPERTY(EditAnywhere, Category = Stat, Meta = (AllowPrivateAccess = true))
+	float RotateSpeed;
+	
+	UPROPERTY(VisibleAnywhere)
+	URotatingMovementComponent* Movement;
+	
+
 
 };
