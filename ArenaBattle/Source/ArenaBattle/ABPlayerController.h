@@ -18,5 +18,8 @@ public:
 	virtual void PostInitializeComponents() override;
 	virtual void Possess(APawn* aPawn) override; //4.22버전부터는 OnPossess로 변경. 사용방법은 동일.
 	
-	
+protected:
+	virtual void BeginPlay() override;
+
+
 };
