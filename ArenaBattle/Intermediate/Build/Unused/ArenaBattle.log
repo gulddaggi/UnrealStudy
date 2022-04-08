@@ -1,9 +1,9 @@
 ﻿  Compiling game modules for hot reload
   Performing 3 actions (9 in parallel)
-  ABAnimInstance.cpp
-  [2/3] Link UE4Editor-ArenaBattle-5187.dll
-  [3/3] Link UE4Editor-ArenaBattle-5187.lib
-     D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5187.lib 라이브러리 및 D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5187.exp 개체를 생성하고 있습니다.
-     D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5187.suppressed.lib 라이브러리 및 D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5187.suppressed.exp 개체를 생성하고 있습니다.
+  ABGameInstance.cpp
+  [2/3] Link UE4Editor-ArenaBattle-279.dll
+  [3/3] Link UE4Editor-ArenaBattle-279.lib
+     D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-279.lib 라이브러리 및 D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-279.exp 개체를 생성하고 있습니다.
+     D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-279.suppressed.lib 라이브러리 및 D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-279.suppressed.exp 개체를 생성하고 있습니다.
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 6.91 seconds (Local executor: 4.20 seconds)
+  Total build time: 10.35 seconds (Local executor: 7.98 seconds)

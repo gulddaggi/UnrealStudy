@@ -86,6 +86,15 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsDead_MetaData[] = {
+				{ "AllowPrivateAccess", "TRUE" },
+				{ "Category", "Pawn" },
+				{ "ModuleRelativePath", "ABAnimInstance.h" },
+			};
+#endif
+			auto NewProp_IsDead_SetBit = [](void* Obj){ ((UABAnimInstance*)Obj)->IsDead = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsDead = { UE4CodeGen_Private::EPropertyClass::Bool, "IsDead", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(UABAnimInstance), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_IsDead_SetBit)>::SetBit, METADATA_PARAMS(NewProp_IsDead_MetaData, ARRAY_COUNT(NewProp_IsDead_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackMontage_MetaData[] = {
 				{ "AllowPrivateAccess", "TRUE" },
 				{ "Category", "Attack" },
@@ -111,6 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentPawnSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentPawnSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000015, 1, nullptr, STRUCT_OFFSET(UABAnimInstance, CurrentPawnSpeed), METADATA_PARAMS(NewProp_CurrentPawnSpeed_MetaData, ARRAY_COUNT(NewProp_CurrentPawnSpeed_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_IsDead,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_AttackMontage,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_IsInAir,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentPawnSpeed,
@@ -133,7 +143,7 @@ void EmptyLinkFunctionForGeneratedCodeABAnimInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABAnimInstance, 3082967392);
+	IMPLEMENT_CLASS(UABAnimInstance, 3268786483);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UABAnimInstance(Z_Construct_UClass_UABAnimInstance, &UABAnimInstance::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("UABAnimInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UABAnimInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
