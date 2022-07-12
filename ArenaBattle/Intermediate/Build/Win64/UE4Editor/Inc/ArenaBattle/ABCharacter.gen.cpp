@@ -20,9 +20,12 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 	ARENABATTLE_API UFunction* Z_Construct_UFunction_AABCharacter_OnAttackMontageEnded();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ARENABATTLE_API UClass* Z_Construct_UClass_UABAnimInstance_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	ARENABATTLE_API UClass* Z_Construct_UClass_UABCharacterStatComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
+	ARENABATTLE_API UClass* Z_Construct_UClass_AABWeapon_NoRegister();
 // End Cross Module References
 	void AABCharacter::StaticRegisterNativesAABCharacter()
 	{
@@ -148,6 +151,14 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 			auto NewProp_IsAttacking_SetBit = [](void* Obj){ ((AABCharacter*)Obj)->IsAttacking = 1; };
 			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsAttacking = { UE4CodeGen_Private::EPropertyClass::Bool, "IsAttacking", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020815, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AABCharacter), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_IsAttacking_SetBit)>::SetBit, METADATA_PARAMS(NewProp_IsAttacking_MetaData, ARRAY_COUNT(NewProp_IsAttacking_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HPBarWidget_MetaData[] = {
+				{ "Category", "UI" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "ABCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HPBarWidget = { UE4CodeGen_Private::EPropertyClass::Object, "HPBarWidget", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AABCharacter, HPBarWidget), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(NewProp_HPBarWidget_MetaData, ARRAY_COUNT(NewProp_HPBarWidget_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[] = {
 				{ "Category", "Camera" },
 				{ "EditInline", "true" },
@@ -164,6 +175,14 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm = { UE4CodeGen_Private::EPropertyClass::Object, "SpringArm", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AABCharacter, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(NewProp_SpringArm_MetaData, ARRAY_COUNT(NewProp_SpringArm_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CharacterStat_MetaData[] = {
+				{ "Category", "Stat" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "ABCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CharacterStat = { UE4CodeGen_Private::EPropertyClass::Object, "CharacterStat", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AABCharacter, CharacterStat), Z_Construct_UClass_UABCharacterStatComponent_NoRegister, METADATA_PARAMS(NewProp_CharacterStat_MetaData, ARRAY_COUNT(NewProp_CharacterStat_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Weapon_MetaData[] = {
 				{ "Category", "Weapon" },
 				{ "EditInline", "true" },
@@ -171,6 +190,13 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Weapon = { UE4CodeGen_Private::EPropertyClass::Object, "Weapon", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AABCharacter, Weapon), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(NewProp_Weapon_MetaData, ARRAY_COUNT(NewProp_Weapon_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentWeapon_MetaData[] = {
+				{ "Category", "Weapon" },
+				{ "ModuleRelativePath", "ABCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentWeapon = { UE4CodeGen_Private::EPropertyClass::Object, "CurrentWeapon", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000020001, 1, nullptr, STRUCT_OFFSET(AABCharacter, CurrentWeapon), Z_Construct_UClass_AABWeapon_NoRegister, METADATA_PARAMS(NewProp_CurrentWeapon_MetaData, ARRAY_COUNT(NewProp_CurrentWeapon_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_AttackRadius,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_AttackRange,
@@ -180,9 +206,12 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_IsComboInputOn,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CanNextCombo,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_IsAttacking,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HPBarWidget,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Camera,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SpringArm,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CharacterStat,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Weapon,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentWeapon,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 				TCppClassTypeTraits<AABCharacter>::IsAbstract,
@@ -202,7 +231,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABCharacter, 137246268);
+	IMPLEMENT_CLASS(AABCharacter, 3597714363);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AABCharacter(Z_Construct_UClass_AABCharacter, &AABCharacter::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AABCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AABCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -83,7 +83,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{405EA7E4-F250-4B87-B041-3F9023CAA974}</ProjectGuid>
+    <ProjectGuid>{9610FA7E-F3FA-4FF4-86B5-A17CF30027B0}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>ArenaBattle</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>
@@ -418,18 +418,24 @@
     <ClInclude Include="..\..\Source\ArenaBattle\ABAnimInstance.h" />
     <ClCompile Include="..\..\Source\ArenaBattle\ABCharacter.cpp" />
     <ClInclude Include="..\..\Source\ArenaBattle\ABCharacter.h" />
+    <ClCompile Include="..\..\Source\ArenaBattle\ABCharacterStatComponent.cpp" />
+    <ClInclude Include="..\..\Source\ArenaBattle\ABCharacterStatComponent.h" />
+    <ClCompile Include="..\..\Source\ArenaBattle\ABCharacterWidget.cpp" />
+    <ClInclude Include="..\..\Source\ArenaBattle\ABCharacterWidget.h" />
     <ClCompile Include="..\..\Source\ArenaBattle\ABGameInstance.cpp" />
-    <ClCompile Include="..\..\Source\ArenaBattle\ABGameMode.cpp" />
     <ClInclude Include="..\..\Source\ArenaBattle\ABGameInstance.h" />
+    <ClCompile Include="..\..\Source\ArenaBattle\ABGameMode.cpp" />
     <ClInclude Include="..\..\Source\ArenaBattle\ABGameMode.h" />
+    <ClCompile Include="..\..\Source\ArenaBattle\ABItemBox.cpp" />
+    <ClInclude Include="..\..\Source\ArenaBattle\ABItemBox.h" />
     <ClCompile Include="..\..\Source\ArenaBattle\ABPawn.cpp" />
     <ClInclude Include="..\..\Source\ArenaBattle\ABPawn.h" />
     <ClCompile Include="..\..\Source\ArenaBattle\ABPlayerController.cpp" />
     <ClInclude Include="..\..\Source\ArenaBattle\ABPlayerController.h" />
-    <None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs" />
     <ClCompile Include="..\..\Source\ArenaBattle\ABWeapon.cpp" />
-    <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattle.cpp" />
     <ClInclude Include="..\..\Source\ArenaBattle\ABWeapon.h" />
+    <None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs" />
+    <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattle.cpp" />
     <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h" />
     <ClCompile Include="..\..\Source\ArenaBattle\Fountain.cpp" />
     <ClInclude Include="..\..\Source\ArenaBattle\Fountain.h" />

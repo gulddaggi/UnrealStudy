@@ -28,17 +28,17 @@ public:
 		int32 DropExp;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Data")
-		float NextExp;
+		int32 NextExp;
 };
 
 /**
- * 
+ *
  */
 UCLASS()
 class ARENABATTLE_API UABGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
-	
+
 public:
 	UABGameInstance();
 
@@ -47,6 +47,5 @@ public:
 
 private:
 	UPROPERTY()
-	class UDataTable * ABCharacterTable;
-	
+		class UDataTable* ABCharacterTable;
 };

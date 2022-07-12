@@ -63,7 +63,7 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 				{ "ModuleRelativePath", "ABGameInstance.h" },
 			};
 #endif
-			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_NextExp = { UE4CodeGen_Private::EPropertyClass::Float, "NextExp", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FABCharacterData, NextExp), METADATA_PARAMS(NewProp_NextExp_MetaData, ARRAY_COUNT(NewProp_NextExp_MetaData)) };
+			static const UE4CodeGen_Private::FIntPropertyParams NewProp_NextExp = { UE4CodeGen_Private::EPropertyClass::Int, "NextExp", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FABCharacterData, NextExp), METADATA_PARAMS(NewProp_NextExp_MetaData, ARRAY_COUNT(NewProp_NextExp_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DropExp_MetaData[] = {
 				{ "Category", "Data" },
@@ -115,7 +115,7 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FABCharacterData_CRC() { return 387080520U; }
+	uint32 Get_Z_Construct_UScriptStruct_FABCharacterData_CRC() { return 1503961821U; }
 	void UABGameInstance::StaticRegisterNativesUABGameInstance()
 	{
 	}

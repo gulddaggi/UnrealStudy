@@ -1,4 +1,4 @@
-﻿Log file open, 04/09/22 03:28:43
+﻿Log file open, 07/12/22 22:44:04
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ArenaBattle
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1847931208) SRandInit(-1847931208).
+LogInit: Display: RandInit(1215485758) SRandInit(1215485759).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.527969
+LogStats: Stats thread started at 0.786773
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.300s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../UE4CPP/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattle-7155.dll (API version 3944462).
+LogStreaming: Display: Took  0.144s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../UE4CPP/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattle-1347.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -189,7 +189,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-7F2F2D9 (211.57.219.117:0)
+LogInit: WinSock: I am DESKTOP-7F2F2D9 (211.57.218.160:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -220,273 +220,777 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: 
 LogInit: Base Directory: D:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.017s to delete old logs.
+LogStreaming: Display: Took  0.035s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2022.04.08-18.28.46:656][  0]LogInit: Selected Device Profile: [Windows]
-[2022.04.08-18.28.46:656][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.04.08-18.28.46:719][  0]LogInit: Computer: DESKTOP-7F2F2D9
-[2022.04.08-18.28.46:719][  0]LogInit: User: guldd
-[2022.04.08-18.28.46:719][  0]LogInit: CPU Page size=4096, Cores=6
-[2022.04.08-18.28.46:719][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.04.08-18.28.46:719][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2022.04.08-18.28.46:719][  0]LogMemory: Platform Memory Stats for Windows
-[2022.04.08-18.28.46:719][  0]LogMemory: Process Physical Memory: 278.31 MB used, 278.31 MB peak
-[2022.04.08-18.28.46:719][  0]LogMemory: Process Virtual Memory: 271.64 MB used, 271.64 MB peak
-[2022.04.08-18.28.46:719][  0]LogMemory: Physical Memory: 9488.32 MB used,  6820.96 MB free, 16309.28 MB total
-[2022.04.08-18.28.46:719][  0]LogMemory: Virtual Memory: 4800.46 MB used,  6820.96 MB free, 134217728.00 MB total
-[2022.04.08-18.28.47:033][  0]LogInit: Using OS detected language (ko-KR).
-[2022.04.08-18.28.47:033][  0]LogInit: Using OS detected locale (ko-KR).
-[2022.04.08-18.28.47:275][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2022.04.08-18.28.48:728][  0]LogStreaming: Display: Took  1.695s to EndInitTextLocalization.
-[2022.04.08-18.28.48:728][  0]LogInit: Setting process to per monitor DPI aware
-[2022.04.08-18.28.48:814][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.04.08-18.28.48:814][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.04.08-18.28.51:731][  0]LogD3D11RHI: D3D11 adapters:
-[2022.04.08-18.28.51:841][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
-[2022.04.08-18.28.51:841][  0]LogD3D11RHI:       8050/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2022.04.08-18.28.51:843][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.04.08-18.28.51:843][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.04.08-18.28.51:843][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.04.08-18.28.51:849][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.04.08-18.28.51:849][  0]LogD3D11RHI:     GPU DeviceId: 0x2486 (for the marketing name, search the web for "GPU Device Id")
-[2022.04.08-18.28.51:849][  0]LogWindows: EnumDisplayDevices:
-[2022.04.08-18.28.51:849][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
-[2022.04.08-18.28.51:849][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2022.04.08-18.28.51:850][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2022.04.08-18.28.51:851][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2022.04.08-18.28.51:851][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2022.04.08-18.28.51:851][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
-[2022.04.08-18.28.51:851][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2022.04.08-18.28.51:851][  0]LogD3D11RHI:      Driver Date: Unknown
-[2022.04.08-18.28.51:851][  0]LogRHI: Texture pool is 5635 MB (70% of 8050 MB)
-[2022.04.08-18.28.51:930][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2022.04.08-18.28.51:930][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2022.04.08-18.28.51:930][  0]LogD3D11RHI: Async texture creation enabled
-[2022.04.08-18.28.51:957][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2022.04.08-18.28.51:960][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../UE4CPP/ArenaBattle/Intermediate/Shaders/WorkingDirectory/23328/).
-[2022.04.08-18.28.51:960][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/guldd/AppData/Local/Temp/UnrealShaderWorkingDir/7A606AD04C66475CCCF234A425B7C057/'.
-[2022.04.08-18.28.52:245][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2022.04.08-18.28.52:257][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2022.04.08-18.28.52:268][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2022.04.08-18.28.52:279][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2022.04.08-18.28.52:388][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2022.04.08-18.28.52:400][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2022.04.08-18.28.52:458][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2022.04.08-18.28.52:470][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2022.04.08-18.28.52:475][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2022.04.08-18.28.52:485][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2022.04.08-18.28.52:496][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2022.04.08-18.28.52:506][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2022.04.08-18.28.52:516][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2022.04.08-18.28.52:526][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2022.04.08-18.28.52:536][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2022.04.08-18.28.52:556][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2022.04.08-18.28.52:556][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2022.04.08-18.28.52:593][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2022.04.08-18.28.52:594][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2022.04.08-18.28.52:688][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2022.04.08-18.28.52:698][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2022.04.08-18.28.52:708][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2022.04.08-18.28.52:718][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2022.04.08-18.28.52:728][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2022.04.08-18.28.52:741][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2022.04.08-18.28.52:741][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.04.08-18.28.53:278][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2022.04.08-18.28.53:278][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2022.04.08-18.28.53:278][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.04.08-18.28.55:423][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.04.08-18.28.55:517][  0]LogDerivedDataCache: Loaded boot cache 0.09s 75MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2022.04.08-18.28.55:517][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2022.04.08-18.28.55:517][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4CPP/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.04.08-18.28.55:517][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.04.08-18.28.55:517][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE4CPP/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.04.08-18.28.55:517][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.04.08-18.28.55:560][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.04.08-18.28.55:573][  0]LogDerivedDataCache: Using Local data cache path C:/Users/guldd/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.04.08-18.28.55:573][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2022.04.08-18.28.55:573][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2022.04.08-18.28.55:582][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2022.04.08-18.28.55:583][  0]LogSlate: Using Freetype 2.6.0
-[2022.04.08-18.28.55:584][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.04.08-18.28.55:584][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.04.08-18.29.00:573][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
-[2022.04.08-18.29.02:162][  0]LogInit: Selected Device Profile: [Windows]
-[2022.04.08-18.29.02:522][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2022.04.08-18.29.02:555][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2022.04.08-18.29.02:555][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.04.08-18.29.02:555][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2022.04.08-18.29.02:555][  0]LogMeshReduction: No automatic mesh merging module available
-[2022.04.08-18.29.02:556][  0]LogMeshMerging: No automatic mesh merging module available
-[2022.04.08-18.29.02:587][  0]LogNetVersion: ArenaBattle , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3555152549)
-[2022.04.08-18.29.03:340][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.147683 seconds
-[2022.04.08-18.29.03:344][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2022.04.08-18.29.03:344][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2022.04.08-18.29.03:344][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.04.08-18.29.34:170][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.04.08-18.29.34:251][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.04.08-18.29.34:613][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.317100ms] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
-[2022.04.08-18.29.34:632][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002ede12463c8, Size=20, Default__WarriorAnimBlueprint_C Function /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
-[2022.04.08-18.29.34:637][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002ede12463c8, Size=20
-[2022.04.08-18.29.34:637][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002ede12804f0, Size=20, Default__WarriorAnimBlueprint_C Function /Engine/Transient.REINST_WarriorAnimBlueprint_C_0:ExecuteUbergraph_WarriorAnimBlueprint
-[2022.04.08-18.29.34:642][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002ede1281af8, Size=20, Default__WarriorAnimBlueprint_C Function /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
-[2022.04.08-18.29.34:688][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [22.851900ms] /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight
-[2022.04.08-18.29.34:699][  0]LogLinker: Warning: '/Game/Book/Gamedata/ABCharcterData' 파일을 찾을 수 없습니다.
-[2022.04.08-18.29.34:699][  0]LogLinker: Warning: '/Game/Book/Gamedata/ABCharcterData' 파일을 찾을 수 없습니다.
-[2022.04.08-18.29.34:699][  0]LogUObjectGlobals: Warning: 'DataTable /Game/Book/Gamedata/ABCharcterData.ABCharacterData' 오브젝트를 찾는 데 실패했습니다.
-[2022.04.08-18.29.34:699][  0]Error: CDO Constructor (ABGameInstance): Failed to find /Game/Book/Gamedata/ABCharcterData.ABCharacterData
-
-[2022.04.08-18.29.34:699][  0]ArenaBattle: Error: UABGameInstance::UABGameInstance(10) ASSERTION : 'DT_ABCHARACTER.Succeeded()'
-[2022.04.08-18.29.34:744][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
-[2022.04.08-18.29.34:744][  0]LogUObjectBase: Warning: Error: CDO Constructor (ABGameInstance): Failed to find /Game/Book/Gamedata/ABCharcterData.ABCharacterData
-
-[2022.04.08-18.29.42:465][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2022.04.08-18.29.42:942][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.04.08-18.29.42:942][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.04.08-18.29.42:981][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.04.08-18.29.43:005][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.04.08-18.29.43:699][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.04.08-18.29.43:953][  0]LogOcInput: OculusInput pre-init called
-[2022.04.08-18.29.44:076][  0]LogEngine: Initializing Engine...
-[2022.04.08-18.29.44:077][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.04.08-18.29.44:079][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2022.04.08-18.29.44:079][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2022.04.08-18.29.44:312][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.04.08-18.29.44:371][  0]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.04.08-18.29.44:404][  0]LogInit: FAudioDevice initialized.
-[2022.04.08-18.29.44:448][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2022.04.08-18.29.44:454][  0]LogInit: Texture streaming: Enabled
-[2022.04.08-18.29.44:471][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2022.04.08-18.29.44:471][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={7F45CC25-448A-B7B3-9311-028B23B0B848}
-[2022.04.08-18.29.44:525][  0]LogInit: Transaction tracking system initialized
-[2022.04.08-18.29.44:642][  0]BlueprintLog: New page: 에디터 로드
-[2022.04.08-18.29.45:040][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2022.04.08-18.29.45:285][  0]LogConsoleResponse: Display: 
-[2022.04.08-18.29.45:671][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.04.08-18.29.45:671][  0]LogCook: Display: Mobile HDR setting 1
-[2022.04.08-18.29.45:671][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2022.04.08-18.29.45:671][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2022.04.08-18.29.45:671][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2022.04.08-18.29.46:356][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Content/' took 0.03s
-[2022.04.08-18.29.46:356][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.04.08-18.29.46:454][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2022.04.08-18.29.46:538][  0]LogSlate: Took 0.042717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2022.04.08-18.29.46:538][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.04.08-18.29.51:326][  0]LogSlate: Window '패키지 복원' being destroyed
-[2022.04.08-18.29.51:328][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2022.04.08-18.29.51:366][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2022.04.08-18.29.53:154][  0]LogSlate: Window '소스 콘트롤에서 체크아웃할 수 없습니다!' being destroyed
-[2022.04.08-18.29.53:156][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2022.04.08-18.29.53:169][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002ede12804f0, Size=20
-[2022.04.08-18.29.53:318][  0]LoadErrors: New page: 패키지 로드중: /Game/Animations/WarriorAnimBlueprint
-[2022.04.08-18.29.53:334][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2022.04.08-18.29.53:335][  0]Cmd: MAP LOAD FILE="../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.04.08-18.29.53:336][  0]LightingResults: New page: 라이팅 빌드
-[2022.04.08-18.29.53:359][  0]MapCheck: New page: 맵 체크
-[2022.04.08-18.29.53:359][  0]LightingResults: New page: 라이팅 빌드
-[2022.04.08-18.30.13:658][  0]LogStats: FPlatformStackWalk::StackWalkAndDump - 20.269 s
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: === Handled ensure: ===
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: 
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 476]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: UEdGraphPin::링크끊기-> Pin 'Pose' on node ''DefaultSlot' 슬롯' 핀과 상호적으로 연결되어 있지 않습니다. 'BlendPose_1' on node 'bool 로 포즈를 블렌딩합니다.'
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: Stack: 
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x000000004864B706 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:234]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x00000000483AAE3A UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:299]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x00000000483BECD6 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:430]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x000000003A6F68F3 UE4Editor-Engine.dll!UEdGraphPin::BreakLinkTo() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:476]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x000000003A6F6719 UE4Editor-Engine.dll!UEdGraphPin::BreakAllPinLinks() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:496]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x000000003A704098 UE4Editor-Engine.dll!UEdGraphPin::DestroyImpl() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:1531]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x000000003A6F50B2 UE4Editor-Engine.dll!UEdGraphNode::BeginDestroy() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphnode.cpp:605]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x0000000047E2F96F UE4Editor-CoreUObject.dll!UObject::ConditionalBeginDestroy() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:884]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x0000000047DABC4C UE4Editor-CoreUObject.dll!CollectGarbageInternal() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\garbagecollection.cpp:1495]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x0000000047DAA215 UE4Editor-CoreUObject.dll!CollectGarbage() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\garbagecollection.cpp:1537]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x000000003827E7C1 UE4Editor-UnrealEd.dll!UEditorEngine::Cleanse() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:2263]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x00000000382F1D95 UE4Editor-UnrealEd.dll!UEditorEngine::EditorDestroyWorld() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:2055]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x000000003831CD0B UE4Editor-UnrealEd.dll!UEditorEngine::Map_Load() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:2414]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x000000003830EEC5 UE4Editor-UnrealEd.dll!UEditorEngine::HandleMapCommand() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5966]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x00000000382F2FE2 UE4Editor-UnrealEd.dll!UEditorEngine::Exec() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5443]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x0000000038B70489 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedsrv.cpp:696]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x00000000385F1E3B UE4Editor-UnrealEd.dll!FEditorFileUtils::LoadMap() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:2234]
-[2022.04.08-18.30.13:658][  0]LogOutputDevice: Error: [Callstack] 0x00000000385F1A8F UE4Editor-UnrealEd.dll!FEditorFileUtils::LoadDefaultMapAtStartup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:3597]
-[2022.04.08-18.30.13:659][  0]LogOutputDevice: Error: [Callstack] 0x0000000038B285DE UE4Editor-UnrealEd.dll!FUnrealEdMisc::OnInit() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedmisc.cpp:350]
-[2022.04.08-18.30.13:659][  0]LogOutputDevice: Error: [Callstack] 0x0000000038AF3CA3 UE4Editor-UnrealEd.dll!EditorInit() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedglobals.cpp:97]
-[2022.04.08-18.30.13:659][  0]LogOutputDevice: Error: [Callstack] 0x00000000B11A6AC6 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launch.cpp:150]
-[2022.04.08-18.30.13:659][  0]LogOutputDevice: Error: [Callstack] 0x00000000B11A6C4A UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
-[2022.04.08-18.30.13:659][  0]LogOutputDevice: Error: [Callstack] 0x00000000B11B4177 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
-[2022.04.08-18.30.13:659][  0]LogOutputDevice: Error: [Callstack] 0x00000000B11B5B87 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
-[2022.04.08-18.30.13:659][  0]LogOutputDevice: Error: [Callstack] 0x0000000097557034 KERNEL32.DLL!UnknownFunction []
-[2022.04.08-18.30.13:659][  0]LogOutputDevice: Error: [Callstack] 0x00000000994C2651 ntdll.dll!UnknownFunction []
-[2022.04.08-18.30.13:659][  0]LogOutputDevice: Error: 
-[2022.04.08-18.30.13:666][  0]LogStats:                SubmitErrorReport -  0.000 s
-[2022.04.08-18.30.14:130][  0]LogStats:                    SendNewReport -  0.464 s
-[2022.04.08-18.30.14:130][  0]LogStats:             FDebug::EnsureFailed - 20.764 s
-[2022.04.08-18.30.14:132][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: === Handled ensure: ===
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: 
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 476]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: UEdGraphPin::링크끊기-> Pin 'Result' on node '최종 애니메이션 포즈' 핀과 상호적으로 연결되어 있지 않습니다. 'Pose' on node 'bool 로 포즈를 블렌딩합니다.'
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: Stack: 
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x000000004864B706 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:234]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000483AAE3A UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:299]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000483BECD6 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:430]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x000000003A6F68F3 UE4Editor-Engine.dll!UEdGraphPin::BreakLinkTo() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:476]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x000000003A6F6719 UE4Editor-Engine.dll!UEdGraphPin::BreakAllPinLinks() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:496]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x000000003A704098 UE4Editor-Engine.dll!UEdGraphPin::DestroyImpl() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:1531]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x000000003A6F50B2 UE4Editor-Engine.dll!UEdGraphNode::BeginDestroy() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\edgraph\edgraphnode.cpp:605]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x0000000047E2F96F UE4Editor-CoreUObject.dll!UObject::ConditionalBeginDestroy() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\obj.cpp:884]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x0000000047DABC4C UE4Editor-CoreUObject.dll!CollectGarbageInternal() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\garbagecollection.cpp:1495]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x0000000047DAA215 UE4Editor-CoreUObject.dll!CollectGarbage() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\garbagecollection.cpp:1537]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x000000003827E7C1 UE4Editor-UnrealEd.dll!UEditorEngine::Cleanse() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:2263]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000382F1D95 UE4Editor-UnrealEd.dll!UEditorEngine::EditorDestroyWorld() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:2055]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x000000003831CD0B UE4Editor-UnrealEd.dll!UEditorEngine::Map_Load() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:2414]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x000000003830EEC5 UE4Editor-UnrealEd.dll!UEditorEngine::HandleMapCommand() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5966]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000382F2FE2 UE4Editor-UnrealEd.dll!UEditorEngine::Exec() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5443]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x0000000038B70489 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedsrv.cpp:696]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000385F1E3B UE4Editor-UnrealEd.dll!FEditorFileUtils::LoadMap() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:2234]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000385F1A8F UE4Editor-UnrealEd.dll!FEditorFileUtils::LoadDefaultMapAtStartup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:3597]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x0000000038B285DE UE4Editor-UnrealEd.dll!FUnrealEdMisc::OnInit() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedmisc.cpp:350]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x0000000038AF3CA3 UE4Editor-UnrealEd.dll!EditorInit() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedglobals.cpp:97]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000B11A6AC6 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launch.cpp:150]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000B11A6C4A UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000B11B4177 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000B11B5B87 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x0000000097557034 KERNEL32.DLL!UnknownFunction []
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: [Callstack] 0x00000000994C2651 ntdll.dll!UnknownFunction []
-[2022.04.08-18.30.14:132][  0]LogOutputDevice: Error: 
-[2022.04.08-18.30.14:138][  0]LogStats:                SubmitErrorReport -  0.000 s
-[2022.04.08-18.30.14:489][  0]LogStats:                    SendNewReport -  0.351 s
-[2022.04.08-18.30.14:489][  0]LogStats:             FDebug::EnsureFailed -  0.359 s
-[2022.04.08-18.30.15:027][  0]LogAIModule: Creating AISystem for world Step2
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: === Critical error: ===
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: 
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xe7f44b98
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: 
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: [Callstack] 0x0000000047BC0616 UE4Editor-CoreUObject.dll!UObjectBaseUtility::GetName() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\public\uobject\uobjectbaseutility.h:366]
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: [Callstack] 0x0000000047F18462 UE4Editor-CoreUObject.dll!FObjectInitializer::PostConstructInit() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:2857]
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: [Callstack] 0x0000000047EE40A3 UE4Editor-CoreUObject.dll!FObjectInitializer::~FObjectInitializer() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:2706]
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: [Callstack] 0x0000000047F2ECA0 UE4Editor-CoreUObject.dll!StaticConstructObject_Internal() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectglobals.cpp:3167]
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: [Callstack] 0x000000003A55CE00 UE4Editor-Engine.dll!USkeletalMeshComponent::InitializeAnimScriptInstance() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:677]
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: [Callstack] 0x000000003A55C289 UE4Editor-Engine.dll!USkeletalMeshComponent::InitAnim() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:630]
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: [Callstack] 0x000000003A562AB3 UE4Editor-Engine.dll!USkeletalMeshComponent::OnRegister() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\skeletalmeshcomponent.cpp:494]
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: [Callstack] 0x000000003A43F913 UE4Editor-Engine.dll!UActorComponent::ExecuteRegisterEvents() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:1239]
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: [Callstack] 0x000000003A461D06 UE4Editor-Engine.dll!UActorComponent::RegisterComponentWithWorld() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\components\actorcomponent.cpp:978]
-[2022.04.08-18.30.17:779][  0]LogWindows: Error: [Callstack] 0x000000003A02EC9B UE4Editor-Engine.dll!AActor::IncrementalRegisterComponents() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\actor.cpp:4099]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x000000003A8F1CDE UE4Editor-Engine.dll!ULevel::IncrementalUpdateComponents() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\level.cpp:917]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x000000003B2D5347 UE4Editor-Engine.dll!UWorld::UpdateWorldComponents() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\engine\private\world.cpp:1607]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x000000003831DBCB UE4Editor-UnrealEd.dll!UEditorEngine::Map_Load() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:2595]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x000000003830EEC5 UE4Editor-UnrealEd.dll!UEditorEngine::HandleMapCommand() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5966]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x00000000382F2FE2 UE4Editor-UnrealEd.dll!UEditorEngine::Exec() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\editorserver.cpp:5443]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x0000000038B70489 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Exec() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedsrv.cpp:696]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x00000000385F1E3B UE4Editor-UnrealEd.dll!FEditorFileUtils::LoadMap() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:2234]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x00000000385F1A8F UE4Editor-UnrealEd.dll!FEditorFileUtils::LoadDefaultMapAtStartup() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\filehelpers.cpp:3597]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x0000000038B285DE UE4Editor-UnrealEd.dll!FUnrealEdMisc::OnInit() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedmisc.cpp:350]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x0000000038AF3CA3 UE4Editor-UnrealEd.dll!EditorInit() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\unrealedglobals.cpp:97]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x00000000B11A6AC6 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launch.cpp:150]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x00000000B11A6C4A UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x00000000B11B4177 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x00000000B11B5B87 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x0000000097557034 KERNEL32.DLL!UnknownFunction []
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x00000000994C2651 ntdll.dll!UnknownFunction []
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: [Callstack] 0x00000000994C2651 ntdll.dll!UnknownFunction []
-[2022.04.08-18.30.17:780][  0]LogWindows: Error: 
-[2022.04.08-18.30.17:795][  0]LogExit: Executing StaticShutdownAfterError
+[2022.07.12-13.44.07:824][  0]LogInit: Selected Device Profile: [Windows]
+[2022.07.12-13.44.07:824][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.07.12-13.44.07:911][  0]LogInit: Computer: DESKTOP-7F2F2D9
+[2022.07.12-13.44.07:911][  0]LogInit: User: guldd
+[2022.07.12-13.44.07:911][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.07.12-13.44.07:911][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.07.12-13.44.07:911][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.07.12-13.44.07:911][  0]LogMemory: Platform Memory Stats for Windows
+[2022.07.12-13.44.07:911][  0]LogMemory: Process Physical Memory: 278.05 MB used, 278.05 MB peak
+[2022.07.12-13.44.07:911][  0]LogMemory: Process Virtual Memory: 271.56 MB used, 271.56 MB peak
+[2022.07.12-13.44.07:911][  0]LogMemory: Physical Memory: 10760.26 MB used,  5549.02 MB free, 16309.28 MB total
+[2022.07.12-13.44.07:911][  0]LogMemory: Virtual Memory: 4800.46 MB used,  5549.02 MB free, 134217728.00 MB total
+[2022.07.12-13.44.08:399][  0]LogInit: Using OS detected language (ko-KR).
+[2022.07.12-13.44.08:399][  0]LogInit: Using OS detected locale (ko-KR).
+[2022.07.12-13.44.08:823][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2022.07.12-13.44.10:478][  0]LogStreaming: Display: Took  2.079s to EndInitTextLocalization.
+[2022.07.12-13.44.10:478][  0]LogInit: Setting process to per monitor DPI aware
+[2022.07.12-13.44.10:634][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.07.12-13.44.10:634][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.07.12-13.44.20:439][  0]LogD3D11RHI: D3D11 adapters:
+[2022.07.12-13.44.20:555][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
+[2022.07.12-13.44.20:555][  0]LogD3D11RHI:       8050/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.07.12-13.44.20:559][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.07.12-13.44.20:559][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.07.12-13.44.20:559][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.07.12-13.44.20:564][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.07.12-13.44.20:564][  0]LogD3D11RHI:     GPU DeviceId: 0x2486 (for the marketing name, search the web for "GPU Device Id")
+[2022.07.12-13.44.20:564][  0]LogWindows: EnumDisplayDevices:
+[2022.07.12-13.44.20:565][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
+[2022.07.12-13.44.20:565][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2022.07.12-13.44.20:566][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2022.07.12-13.44.20:566][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2022.07.12-13.44.20:566][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.07.12-13.44.20:566][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
+[2022.07.12-13.44.20:566][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.07.12-13.44.20:566][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.07.12-13.44.20:566][  0]LogRHI: Texture pool is 5635 MB (70% of 8050 MB)
+[2022.07.12-13.44.20:645][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2022.07.12-13.44.20:645][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2022.07.12-13.44.20:645][  0]LogD3D11RHI: Async texture creation enabled
+[2022.07.12-13.44.20:665][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2022.07.12-13.44.20:668][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../UE4CPP/ArenaBattle/Intermediate/Shaders/WorkingDirectory/24188/).
+[2022.07.12-13.44.20:668][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/guldd/AppData/Local/Temp/UnrealShaderWorkingDir/5358B0A24A394B9B4A626AA88677CC20/'.
+[2022.07.12-13.44.21:271][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2022.07.12-13.44.21:286][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2022.07.12-13.44.21:299][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2022.07.12-13.44.21:312][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2022.07.12-13.44.21:371][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2022.07.12-13.44.21:418][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2022.07.12-13.44.21:453][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.07.12-13.44.21:465][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2022.07.12-13.44.21:471][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2022.07.12-13.44.21:482][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2022.07.12-13.44.21:492][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2022.07.12-13.44.21:503][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2022.07.12-13.44.21:514][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2022.07.12-13.44.21:549][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2022.07.12-13.44.21:560][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2022.07.12-13.44.21:580][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2022.07.12-13.44.21:580][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.07.12-13.44.21:611][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.12-13.44.21:614][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2022.07.12-13.44.21:770][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2022.07.12-13.44.21:779][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2022.07.12-13.44.21:790][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2022.07.12-13.44.21:801][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.07.12-13.44.21:812][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2022.07.12-13.44.21:935][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2022.07.12-13.44.21:935][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.07.12-13.44.22:508][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.07.12-13.44.22:508][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.07.12-13.44.22:508][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.07.12-13.44.27:594][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.07.12-13.44.27:746][  0]LogDerivedDataCache: Loaded boot cache 0.15s 76MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2022.07.12-13.44.27:746][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2022.07.12-13.44.27:746][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4CPP/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.07.12-13.44.27:746][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.07.12-13.44.27:746][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE4CPP/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.07.12-13.44.27:746][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.07.12-13.44.27:786][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.07.12-13.44.27:799][  0]LogDerivedDataCache: Using Local data cache path C:/Users/guldd/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.07.12-13.44.27:799][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.07.12-13.44.27:799][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.07.12-13.44.27:809][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.07.12-13.44.27:809][  0]LogSlate: Using Freetype 2.6.0
+[2022.07.12-13.44.27:810][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.07.12-13.44.27:810][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.07.12-13.44.34:227][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
+[2022.07.12-13.44.36:386][  0]LogInit: Selected Device Profile: [Windows]
+[2022.07.12-13.44.36:647][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.07.12-13.44.36:663][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.07.12-13.44.36:663][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.07.12-13.44.36:663][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2022.07.12-13.44.36:663][  0]LogMeshReduction: No automatic mesh merging module available
+[2022.07.12-13.44.36:663][  0]LogMeshMerging: No automatic mesh merging module available
+[2022.07.12-13.44.36:696][  0]LogNetVersion: ArenaBattle , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3555152549)
+[2022.07.12-13.44.37:103][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.075124 seconds
+[2022.07.12-13.44.37:108][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2022.07.12-13.44.37:108][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2022.07.12-13.44.37:108][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.07.12-13.44.50:288][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.07.12-13.44.50:330][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.07.12-13.44.50:679][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.224700ms] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2022.07.12-13.44.50:689][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018af2270598, Size=20, Default__WarriorAnimBlueprint_C Function /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
+[2022.07.12-13.44.50:695][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018af2270598, Size=20
+[2022.07.12-13.44.50:695][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018af22a8ef8, Size=20, Default__WarriorAnimBlueprint_C Function /Engine/Transient.REINST_WarriorAnimBlueprint_C_0:ExecuteUbergraph_WarriorAnimBlueprint
+[2022.07.12-13.44.50:701][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018af1d83220, Size=20, Default__WarriorAnimBlueprint_C Function /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
+[2022.07.12-13.44.50:748][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.062100ms] /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight
+[2022.07.12-13.44.51:419][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.07.12-13.44.51:419][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.07.12-13.44.51:471][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.07.12-13.44.51:504][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.07.12-13.44.52:387][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.07.12-13.44.52:669][  0]LogOcInput: OculusInput pre-init called
+[2022.07.12-13.44.52:825][  0]LogEngine: Initializing Engine...
+[2022.07.12-13.44.52:828][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.07.12-13.44.52:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.07.12-13.44.52:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.07.12-13.44.53:034][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.07.12-13.44.53:090][  0]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.44.53:122][  0]LogInit: FAudioDevice initialized.
+[2022.07.12-13.44.53:174][  0]LogDerivedDataCache: Saved boot cache 0.05s 76MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2022.07.12-13.44.53:183][  0]LogInit: Texture streaming: Enabled
+[2022.07.12-13.44.53:216][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.07.12-13.44.53:216][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={A7B9A878-44E9-DD75-940F-27BEA459DB6A}
+[2022.07.12-13.44.53:260][  0]LogInit: Transaction tracking system initialized
+[2022.07.12-13.44.53:501][  0]BlueprintLog: New page: 에디터 로드
+[2022.07.12-13.44.53:846][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2022.07.12-13.44.54:127][  0]LogConsoleResponse: Display: 
+[2022.07.12-13.44.54:380][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.07.12-13.44.54:380][  0]LogCook: Display: Mobile HDR setting 1
+[2022.07.12-13.44.54:380][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2022.07.12-13.44.54:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.07.12-13.44.54:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.07.12-13.44.54:895][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Content/' took 0.03s
+[2022.07.12-13.44.55:432][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.07.12-13.44.55:596][  0]LogSlate: Took 0.039350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.07.12-13.44.55:597][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.07.12-13.45.07:543][  0]LogSlate: Window '패키지 복원' being destroyed
+[2022.07.12-13.45.07:545][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2022.07.12-13.45.07:593][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2022.07.12-13.45.09:399][  0]LogSlate: Window '소스 콘트롤에서 체크아웃할 수 없습니다!' being destroyed
+[2022.07.12-13.45.09:402][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2022.07.12-13.45.09:431][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2022.07.12-13.45.09:432][  0]Cmd: MAP LOAD FILE="../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.07.12-13.45.09:432][  0]LightingResults: New page: 라이팅 빌드
+[2022.07.12-13.45.09:455][  0]MapCheck: New page: 맵 체크
+[2022.07.12-13.45.09:455][  0]LightingResults: New page: 라이팅 빌드
+[2022.07.12-13.45.09:463][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018af22a8ef8, Size=20
+[2022.07.12-13.45.09:733][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.791500ms] /Game/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_GreatBlade/SK_Blade_GreatBlade.SK_Blade_GreatBlade
+[2022.07.12-13.45.09:741][  0]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.45.09:747][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.07.12-13.45.09:758][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.07.12-13.45.09:819][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 61.19ms.
+[2022.07.12-13.45.09:819][  0]LogFileHelpers: Loading map 'Step2' took 0.387
+[2022.07.12-13.45.09:968][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_3560_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_2cf8_0///####STATCAT_Advanced####
+[2022.07.12-13.45.09:968][  0]LogCollectionManager: Loaded 0 collections in 0.001506 seconds
+[2022.07.12-13.45.10:019][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Saved/Collections/' took 0.01s
+[2022.07.12-13.45.10:019][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Content/Developers/guldd/Collections/' took 0.01s
+[2022.07.12-13.45.10:019][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Content/Collections/' took 0.01s
+[2022.07.12-13.45.10:019][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2022.07.12-13.45.10:027][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2463 classes and 560 folders.
+[2022.07.12-13.45.10:041][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2022.07.12-13.45.11:642][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2022.07.12-13.45.11:666][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2022.07.12-13.45.11:763][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.07.12-13.45.11:764][  0]LogLoad: (Engine Initialization) Total time: 70.45 seconds
+[2022.07.12-13.45.11:764][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.07.12-13.45.11:792][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.07.12-13.45.11:825][  0]LogSlate: Took 0.031520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2022.07.12-13.45.11:825][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.07.12-13.45.11:843][  0]LogSlate: Took 0.015475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.07.12-13.45.12:113][  1]LogRenderer: Reallocating scene render targets to support 768x360 Format 10 NumSamples 1 (Frame:1).
+[2022.07.12-13.45.12:120][  1]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(36) ASSERTION : 'nullptr != ABGameInstance'
+[2022.07.12-13.45.12:132][  1]LogAssetRegistry: Asset discovery search completed in 37.9279 seconds
+[2022.07.12-13.45.12:136][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.07.12-13.45.12:136][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2022.07.12-13.45.12:447][  2]ArenaBattle: Warning: AABPawn::PostInitializeComponents(66)
+[2022.07.12-13.45.12:780][  3]ArenaBattle: Warning: AFountain::PostInitializeComponents(78)
+[2022.07.12-13.45.20:625][ 46]LogRenderer: Reallocating scene render targets to support 768x796 Format 10 NumSamples 1 (Frame:24).
+[2022.07.12-13.45.23:099][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.45.29:817][124]Candidate modules for hot reload:
+[2022.07.12-13.45.29:817][124]  ArenaBattle
+[2022.07.12-13.45.29:817][124]Launching UnrealBuildTool... [D:/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ArenaBattle -ModuleWithSuffix=ArenaBattle,2510 Win64 Development -editorrecompile -canskiplink "D:/UE4CPP/ArenaBattle/ArenaBattle.uproject" ]
+[2022.07.12-13.45.29:830][124]Warning: Starting HotReload took  0.2s.
+[2022.07.12-13.45.46:828][620]CompilerResultsLog: New page: 컴파일 - 2022. 7. 13. 오전 7:45:46
+[2022.07.12-13.45.46:828][620]CompilerResultsLog: Creating makefile for hot reloading ArenaBattle (modules to compile have changed)
+[2022.07.12-13.45.46:828][620]CompilerResultsLog: Compiling game modules for hot reload
+[2022.07.12-13.45.46:829][620]CompilerResultsLog: Target is up to date
+[2022.07.12-13.45.46:829][620]CompilerResultsLog: Total build time: 16.77 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2022.07.12-13.45.46:829][620]LogMainFrame: MainFrame: Module compiling took 17.016 seconds
+[2022.07.12-13.45.46:848][620]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2464 classes and 562 folders.
+[2022.07.12-13.45.46:849][620]Display: HotReload took 17.2s.
+[2022.07.12-13.46.36:432][875]LogHotReload: New module detected: UE4Editor-ArenaBattle-3012.dll
+[2022.07.12-13.46.37:448][879]LogHotReload: Starting Hot-Reload from IDE
+[2022.07.12-13.46.37:475][879]LogSlate: Took 0.020354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.12-13.46.37:912][879]LogClass: ABCharacterData HotReload.
+[2022.07.12-13.46.37:918][879]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2022.07.12-13.46.38:028][879]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2022.07.12-13.46.38:133][879]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2022.07.12-13.46.38:207][879]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0008 seconds. Added 11 classes and 2 folders.
+[2022.07.12-13.46.38:208][879]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2022.07.12-13.46.38:350][879]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2464 classes and 562 folders.
+[2022.07.12-13.46.38:356][879]Display: HotReload took  0.9s.
+[2022.07.12-13.46.47:682][179]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.46.47:694][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.46.47:694][179]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:46:47)
+[2022.07.12-13.46.47:694][179]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.46.47:697][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002858s)
+[2022.07.12-13.46.47:698][179]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.46.47:698][179]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2022.07.12-13.46.47:698][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003757s)
+[2022.07.12-13.46.47:759][179]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.46.47:779][179]LogInit: FAudioDevice initialized.
+[2022.07.12-13.46.47:822][179]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.46.47:824][179]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.46.47
+[2022.07.12-13.46.47:824][179]LogWorld: Bringing up level for play took: 0.001281
+[2022.07.12-13.46.47:825][179]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.46.47:825][179]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.46.47:847][179]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2022.07.12-13.46.47:848][179]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.46.47:848][179]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.46.47:848][179]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.414
+[2022.07.12-13.46.48:981][311]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(63)
+[2022.07.12-13.46.50:273][466]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.46.51:139][566]LogSlate: Took 0.031057 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.07.12-13.46.51:207][566]LogSlate: Took 0.035970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2022.07.12-13.46.52:860][763]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.46.54:515][961]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.46.54:556][966]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.46.54:557][966]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.46.55:598][ 91]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.46.55:639][ 96]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.46.55:640][ 96]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.46.56:187][161]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.46.56:229][166]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.46.56:229][166]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.46.57:290][293]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.46.57:332][298]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.46.57:332][298]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.46.59:099][510]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.46.59:140][515]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.46.59:140][515]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.47.13:399][226]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.47.23:170][397]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.47.23:212][402]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.47.23:212][402]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.47.32:191][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.47.38:990][924]ArenaBattle: Warning: AABPawn::PostInitializeComponents(66)
+[2022.07.12-13.47.38:991][924]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(36) ASSERTION : 'nullptr != ABGameInstance'
+[2022.07.12-13.47.42:288][224]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.07.12-13.48.02:995][798]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2022.07.12-13.48.03:241][798]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018b0d3d1868, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2022.07.12-13.48.03:241][798]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018b0d3d1830, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2022.07.12-13.48.03:588][798]LogSlate: Took 0.026473 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.07.12-13.48.08:345][271]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.07.12-13.48.11:668][653]BlueprintLog: New page: UI_HPBar 컴파일
+[2022.07.12-13.48.12:784][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/UI/UI_HPBar" FILE="../../../../UE4CPP/ArenaBattle/Content/Book/UI/UI_HPBar.uasset" SILENT=true
+[2022.07.12-13.48.12:981][714]LogSavePackage: Save=189.19ms
+[2022.07.12-13.48.12:981][714]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/UI_HPBarF8316C7040EC3E607E244294C779E190.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Book/UI/UI_HPBar.uasset'
+[2022.07.12-13.48.12:983][714]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Book/UI/UI_HPBar.uasset
+[2022.07.12-13.48.13:561][779]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.48.13:575][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.48.13:575][779]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:48:13)
+[2022.07.12-13.48.13:576][779]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.48.13:578][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001930s)
+[2022.07.12-13.48.13:578][779]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.48.13:578][779]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2022.07.12-13.48.13:579][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.002979s)
+[2022.07.12-13.48.13:644][779]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.48.13:665][779]LogInit: FAudioDevice initialized.
+[2022.07.12-13.48.13:699][779]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.48.13:701][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.48.13
+[2022.07.12-13.48.13:702][779]LogWorld: Bringing up level for play took: 0.001753
+[2022.07.12-13.48.13:702][779]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.48.13:703][779]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.48.13:703][779]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.48.13:704][779]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.48.13:704][779]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.271
+[2022.07.12-13.48.15:237][956]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.48.17:358][208]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.48.18:266][317]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(63)
+[2022.07.12-13.48.19:850][507]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.48.21:111][658]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.48.21:152][663]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.48.21:153][663]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.48.22:268][797]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.48.22:310][802]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.48.22:311][802]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.48.23:522][947]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.48.23:563][952]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.48.23:564][952]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.48.24:135][ 20]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.48.24:179][ 25]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.48.24:179][ 25]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.48.26:361][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.50.35:351][840]LogHotReload: New module detected: UE4Editor-ArenaBattle-926.dll
+[2022.07.12-13.50.36:699][845]LogHotReload: Starting Hot-Reload from IDE
+[2022.07.12-13.50.37:050][845]LogClass: ABCharacterData HotReload.
+[2022.07.12-13.50.37:056][845]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2022.07.12-13.50.37:225][845]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2022.07.12-13.50.37:392][845]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2022.07.12-13.50.37:509][845]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0008 seconds. Added 11 classes and 2 folders.
+[2022.07.12-13.50.37:512][845]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2022.07.12-13.50.37:752][845]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2464 classes and 562 folders.
+[2022.07.12-13.50.37:756][845]Display: HotReload took  1.1s.
+[2022.07.12-13.50.43:458][ 61]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.50.43:473][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.50.43:473][ 61]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:50:43)
+[2022.07.12-13.50.43:474][ 61]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.50.43:476][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002272s)
+[2022.07.12-13.50.43:477][ 61]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.50.43:477][ 61]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2022.07.12-13.50.43:477][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003418s)
+[2022.07.12-13.50.43:556][ 61]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.50.43:577][ 61]LogInit: FAudioDevice initialized.
+[2022.07.12-13.50.43:610][ 61]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.50.43:611][ 61]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.50.43
+[2022.07.12-13.50.43:612][ 61]LogWorld: Bringing up level for play took: 0.001344
+[2022.07.12-13.50.43:612][ 61]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.50.43:612][ 61]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.50.43:612][ 61]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.50.43:612][ 61]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.50.43:612][ 61]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.179
+[2022.07.12-13.50.45:391][272]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(63)
+[2022.07.12-13.50.47:007][466]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.50.47:048][471]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.50.47:049][471]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.50.47:049][471]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat::<lambda_f20195e2b075464ef1cee4783b845f81>::operator ()(15) HPRatio : 0.900000
+[2022.07.12-13.50.53:023][188]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.50.53:065][193]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.50.53:065][193]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.50.53:065][193]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat::<lambda_f20195e2b075464ef1cee4783b845f81>::operator ()(15) HPRatio : 0.800000
+[2022.07.12-13.50.53:865][289]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.50.53:907][294]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.50.53:907][294]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.50.53:907][294]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat::<lambda_f20195e2b075464ef1cee4783b845f81>::operator ()(15) HPRatio : 0.700000
+[2022.07.12-13.50.54:807][402]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.50.54:848][407]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.50.54:848][407]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.50.54:849][407]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat::<lambda_f20195e2b075464ef1cee4783b845f81>::operator ()(15) HPRatio : 0.600000
+[2022.07.12-13.50.55:790][520]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.50.55:832][525]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.50.55:832][525]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.50.55:832][525]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat::<lambda_f20195e2b075464ef1cee4783b845f81>::operator ()(15) HPRatio : 0.500000
+[2022.07.12-13.50.56:632][621]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.50.56:673][626]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.50.56:673][626]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.50.56:673][626]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat::<lambda_f20195e2b075464ef1cee4783b845f81>::operator ()(15) HPRatio : 0.400000
+[2022.07.12-13.50.57:548][731]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.50.57:590][736]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.50.57:590][736]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.50.57:590][736]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat::<lambda_f20195e2b075464ef1cee4783b845f81>::operator ()(15) HPRatio : 0.300000
+[2022.07.12-13.50.58:323][824]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.50.58:365][829]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.50.58:365][829]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.50.58:365][829]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat::<lambda_f20195e2b075464ef1cee4783b845f81>::operator ()(15) HPRatio : 0.200000
+[2022.07.12-13.50.59:032][909]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.50.59:074][914]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.50.59:075][914]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.50.59:075][914]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat::<lambda_f20195e2b075464ef1cee4783b845f81>::operator ()(15) HPRatio : 0.100000
+[2022.07.12-13.50.59:774][998]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.50.59:816][  3]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.50.59:816][  3]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-13.50.59:816][  3]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat::<lambda_f20195e2b075464ef1cee4783b845f81>::operator ()(15) HPRatio : 0.000000
+[2022.07.12-13.50.59:816][  3]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_952400034fe735d736bceda84b534d89>::operator ()(186) OnHPIsZero
+[2022.07.12-13.51.03:392][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.51.03:514][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Step2" FILE="../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.12-13.51.03:559][424]LogSavePackage: Save=23.35ms
+[2022.07.12-13.51.03:559][424]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/Step2E3E3FDC84BFCB251F2BB7BAAB0531E02.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap'
+[2022.07.12-13.51.03:560][424]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap
+[2022.07.12-13.51.03:584][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Step2_BuiltData" FILE="../../../../UE4CPP/ArenaBattle/Content/Maps/Step2_BuiltData.uasset" SILENT=true
+[2022.07.12-13.51.03:632][424]LogSavePackage: Save=43.08ms
+[2022.07.12-13.51.03:632][424]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/Step2_BuiltData7523FE2E4FBE7FA9606870B14B6DD0ED.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Maps/Step2_BuiltData.uasset'
+[2022.07.12-13.51.03:634][424]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Maps/Step2_BuiltData.uasset
+[2022.07.12-14.01.43:345][156]LogHotReload: New module detected: UE4Editor-ArenaBattle-9432.dll
+[2022.07.12-14.01.44:362][160]LogHotReload: Starting Hot-Reload from IDE
+[2022.07.12-14.01.44:742][160]LogClass: Could not find existing class ABCharacterWidget in package /Script/ArenaBattle for HotReload, assuming new class
+[2022.07.12-14.01.44:749][160]LogClass: ABCharacterData HotReload.
+[2022.07.12-14.01.44:754][160]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2022.07.12-14.01.44:960][160]LogHotReload: Re-instancing ABCharacterWidget after hot-reload.
+[2022.07.12-14.01.45:107][160]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2022.07.12-14.01.45:309][160]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2022.07.12-14.01.45:447][160]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0008 seconds. Added 11 classes and 2 folders.
+[2022.07.12-14.01.45:449][160]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2022.07.12-14.01.45:686][160]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2464 classes and 562 folders.
+[2022.07.12-14.01.45:690][160]Display: HotReload took  1.3s.
+[2022.07.12-14.03.07:647][516]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-14.03.07:663][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-14.03.07:663][516]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 8:03:07)
+[2022.07.12-14.03.07:663][516]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-14.03.07:665][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001895s)
+[2022.07.12-14.03.07:666][516]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-14.03.07:666][516]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2022.07.12-14.03.07:666][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003185s)
+[2022.07.12-14.03.07:758][516]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-14.03.07:779][516]LogInit: FAudioDevice initialized.
+[2022.07.12-14.03.07:809][516]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-14.03.07:810][516]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-23.03.07
+[2022.07.12-14.03.07:811][516]LogWorld: Bringing up level for play took: 0.001372
+[2022.07.12-14.03.07:811][516]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-14.03.07:811][516]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-14.03.07:812][516]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-14.03.07:812][516]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-14.03.07:813][516]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.378
+[2022.07.12-14.03.08:911][641]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(63)
+[2022.07.12-14.03.10:421][822]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.10:462][827]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-14.03.10:462][827]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-14.03.11:063][899]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.11:105][904]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-14.03.11:105][904]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-14.03.11:663][971]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.11:704][976]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-14.03.11:704][976]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-14.03.12:529][ 75]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.12:746][101]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.12:763][103]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-14.03.12:763][103]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-14.03.13:604][204]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.13:821][230]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.13:838][232]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-14.03.13:838][232]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-14.03.14:796][347]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.14:838][352]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-14.03.14:838][352]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-14.03.16:029][495]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.16:071][500]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-14.03.16:071][500]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-14.03.17:088][622]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.17:304][648]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.17:321][650]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-14.03.17:321][650]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-14.03.20:413][ 21]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.20:629][ 47]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.20:646][ 49]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-14.03.20:647][ 49]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-14.03.21:929][203]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-14.03.21:971][208]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-14.03.21:971][208]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 10.000000
+[2022.07.12-14.03.21:971][208]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_952400034fe735d736bceda84b534d89>::operator ()(186) OnHPIsZero
+[2022.07.12-14.03.25:931][670]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-14.03.26:016][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Step2" FILE="../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.07.12-14.03.26:057][679]LogSavePackage: Save=22.31ms
+[2022.07.12-14.03.26:057][679]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/Step24840C9A348C727429074CFABA45BB747.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap'
+[2022.07.12-14.03.26:059][679]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap
+[2022.07.12-14.03.26:075][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Step2_BuiltData" FILE="../../../../UE4CPP/ArenaBattle/Content/Maps/Step2_BuiltData.uasset" SILENT=true
+[2022.07.12-14.03.26:087][679]LogSavePackage: Save=7.33ms
+[2022.07.12-14.03.26:087][679]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/Step2_BuiltData47973CDA422B8BD4F006E1B45D1AC299.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Maps/Step2_BuiltData.uasset'
+[2022.07.12-14.03.26:088][679]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Maps/Step2_BuiltData.uasset
+[2022.07.12-14.03.32:911][470]LogSlate: Window 'UI_HPBar' being destroyed
+[2022.07.12-14.03.32:958][470]LogSlate: Window 'ArenaBattle - 언리얼 에디터' being destroyed
+[2022.07.12-14.03.32:961][470]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2022.07.12-14.03.33:331][471]Cmd: QUIT_EDITOR
+[2022.07.12-14.03.34:155][471]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.07.12-14.03.34:173][471]LogExit: Preparing to exit.
+[2022.07.12-14.03.35:192][471]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/ArenaBattle/Content/' was aborted.
+[2022.07.12-14.03.35:298][471]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018af1d83220, Size=20
+[2022.07.12-14.03.35:327][471]LogExit: Editor shut down
+[2022.07.12-14.03.35:331][471]LogExit: Transaction tracking system shut down
+[2022.07.12-14.03.35:334][471]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018b0d3d1868, Size=4
+[2022.07.12-14.03.35:334][471]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018b0d3d1830, Size=4
+[2022.07.12-14.03.35:447][471]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2022.07.12-14.03.35:447][471]LogDirectoryWatcher: A directory notification for '../../../../UE4CPP/ArenaBattle/Content/' was aborted.
+[2022.07.12-14.03.35:448][471]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2022.07.12-14.03.35:448][471]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2022.07.12-14.03.35:448][471]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2022.07.12-14.03.35:448][471]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2022.07.12-14.03.35:448][471]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2022.07.12-14.03.35:448][471]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2022.07.12-14.03.36:322][471]LogExit: Object subsystem successfully closed.
+[2022.07.12-14.03.36:479][471]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.07.12-14.03.36:503][471]LogD3D11RHI: Shutdown
+[2022.07.12-14.03.36:503][471]LogD3D11RHI: CleanupD3DDevice
+[2022.07.12-14.03.36:546][471]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.07.12-14.03.37:409][471]LogModuleManager: Shutting down and abandoning module ArenaBattle (585)
+[2022.07.12-14.03.37:409][471]LogModuleManager: Shutting down and abandoning module SequencerWidgets (583)
+[2022.07.12-14.03.37:409][471]LogModuleManager: Shutting down and abandoning module BlueprintGraph (581)
+[2022.07.12-14.03.37:409][471]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (579)
+[2022.07.12-14.03.37:409][471]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2022.07.12-14.03.37:409][471]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
+[2022.07.12-14.03.37:419][471]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2022.07.12-14.03.37:419][471]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2022.07.12-14.03.37:427][471]LogDirectoryWatcher: A directory notification for 'D:/UE_4.19/FeaturePacks/' was aborted.
+[2022.07.12-14.03.37:428][471]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2022.07.12-14.03.37:428][471]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2022.07.12-14.03.37:428][471]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2022.07.12-14.03.37:428][471]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/ArenaBattle/Content/Collections/' was aborted.
+[2022.07.12-14.03.37:428][471]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/ArenaBattle/Content/Developers/guldd/Collections/' was aborted.
+[2022.07.12-14.03.37:428][471]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/ArenaBattle/Saved/Collections/' was aborted.
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2022.07.12-14.03.37:429][471]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2022.07.12-14.03.37:430][471]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2022.07.12-14.03.37:470][471]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2022.07.12-14.03.37:470][471]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2022.07.12-14.03.37:483][471]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2022.07.12-14.03.37:483][471]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2022.07.12-14.03.37:514][471]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2022.07.12-14.03.37:514][471]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2022.07.12-14.03.37:514][471]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2022.07.12-14.03.37:526][471]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2022.07.12-14.03.37:552][471]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2022.07.12-14.03.37:552][471]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2022.07.12-14.03.37:577][471]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2022.07.12-14.03.37:609][471]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2022.07.12-14.03.37:609][471]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2022.07.12-14.03.37:609][471]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2022.07.12-14.03.37:609][471]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2022.07.12-14.03.37:609][471]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2022.07.12-14.03.38:539][471]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2022.07.12-14.03.38:539][471]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2022.07.12-14.03.38:539][471]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2022.07.12-14.03.38:539][471]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2022.07.12-14.03.38:539][471]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2022.07.12-14.03.38:560][471]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2022.07.12-14.03.38:571][471]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2022.07.12-14.03.38:571][471]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2022.07.12-14.03.38:571][471]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2022.07.12-14.03.38:578][471]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2022.07.12-14.03.38:578][471]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2022.07.12-14.03.38:578][471]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2022.07.12-14.03.38:578][471]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2022.07.12-14.03.38:578][471]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2022.07.12-14.03.38:578][471]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2022.07.12-14.03.38:578][471]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2022.07.12-14.03.38:592][471]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2022.07.12-14.03.38:601][471]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2022.07.12-14.03.38:614][471]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2022.07.12-14.03.38:614][471]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2022.07.12-14.03.38:626][471]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2022.07.12-14.03.38:676][471]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2022.07.12-14.03.38:683][471]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2022.07.12-14.03.38:712][471]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2022.07.12-14.03.38:738][471]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2022.07.12-14.03.38:738][471]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2022.07.12-14.03.38:757][471]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2022.07.12-14.03.38:757][471]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2022.07.12-14.03.38:788][471]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2022.07.12-14.03.38:788][471]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2022.07.12-14.03.38:788][471]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2022.07.12-14.03.38:819][471]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2022.07.12-14.03.38:819][471]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2022.07.12-14.03.38:820][471]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2022.07.12-14.03.38:820][471]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2022.07.12-14.03.38:820][471]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2022.07.12-14.03.38:835][471]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2022.07.12-14.03.38:835][471]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2022.07.12-14.03.38:840][471]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2022.07.12-14.03.38:840][471]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2022.07.12-14.03.38:840][471]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2022.07.12-14.03.38:840][471]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2022.07.12-14.03.38:840][471]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2022.07.12-14.03.38:840][471]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2022.07.12-14.03.38:840][471]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2022.07.12-14.03.38:840][471]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2022.07.12-14.03.38:840][471]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2022.07.12-14.03.38:841][471]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2022.07.12-14.03.38:841][471]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2022.07.12-14.03.38:841][471]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2022.07.12-14.03.38:859][471]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
+[2022.07.12-14.03.39:004][471]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
+[2022.07.12-14.03.39:026][471]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2022.07.12-14.03.39:026][471]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2022.07.12-14.03.39:026][471]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2022.07.12-14.03.39:032][471]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2022.07.12-14.03.39:032][471]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2022.07.12-14.03.39:032][471]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2022.07.12-14.03.39:032][471]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2022.07.12-14.03.39:032][471]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2022.07.12-14.03.39:032][471]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2022.07.12-14.03.39:032][471]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2022.07.12-14.03.39:032][471]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2022.07.12-14.03.39:032][471]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2022.07.12-14.03.39:049][471]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2022.07.12-14.03.39:049][471]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2022.07.12-14.03.39:049][471]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2022.07.12-14.03.39:049][471]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2022.07.12-14.03.39:052][471]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2022.07.12-14.03.39:052][471]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2022.07.12-14.03.39:064][471]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2022.07.12-14.03.39:064][471]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2022.07.12-14.03.39:064][471]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2022.07.12-14.03.39:064][471]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2022.07.12-14.03.39:064][471]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2022.07.12-14.03.39:064][471]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2022.07.12-14.03.39:077][471]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2022.07.12-14.03.39:077][471]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2022.07.12-14.03.39:086][471]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2022.07.12-14.03.39:086][471]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2022.07.12-14.03.39:086][471]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2022.07.12-14.03.39:086][471]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2022.07.12-14.03.39:086][471]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2022.07.12-14.03.39:086][471]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2022.07.12-14.03.39:102][471]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2022.07.12-14.03.39:115][471]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2022.07.12-14.03.39:115][471]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2022.07.12-14.03.39:115][471]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2022.07.12-14.03.39:115][471]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2022.07.12-14.03.39:115][471]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2022.07.12-14.03.39:115][471]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2022.07.12-14.03.39:137][471]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2022.07.12-14.03.39:137][471]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2022.07.12-14.03.39:137][471]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2022.07.12-14.03.39:137][471]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2022.07.12-14.03.39:137][471]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2022.07.12-14.03.39:137][471]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2022.07.12-14.03.39:137][471]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2022.07.12-14.03.39:137][471]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2022.07.12-14.03.39:154][471]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2022.07.12-14.03.39:154][471]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2022.07.12-14.03.39:255][471]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2022.07.12-14.03.39:364][471]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2022.07.12-14.03.39:377][471]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2022.07.12-14.03.39:377][471]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2022.07.12-14.03.39:377][471]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2022.07.12-14.03.39:377][471]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2022.07.12-14.03.39:395][471]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2022.07.12-14.03.39:405][471]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2022.07.12-14.03.39:417][471]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2022.07.12-14.03.39:418][471]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2022.07.12-14.03.39:418][471]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2022.07.12-14.03.39:418][471]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/ArenaBattle/Binaries/Win64' was aborted.
+[2022.07.12-14.03.39:418][471]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2022.07.12-14.03.39:419][471]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2022.07.12-14.03.39:419][471]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2022.07.12-14.03.39:419][471]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2022.07.12-14.03.39:439][471]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2022.07.12-14.03.40:253][471]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2022.07.12-14.03.40:279][471]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2022.07.12-14.03.40:279][471]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2022.07.12-14.03.40:293][471]LogModuleManager: Shutting down and abandoning module Media (233)
+[2022.07.12-14.03.40:299][471]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2022.07.12-14.03.40:299][471]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2022.07.12-14.03.40:299][471]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2022.07.12-14.03.40:299][471]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2022.07.12-14.03.40:299][471]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2022.07.12-14.03.40:299][471]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2022.07.12-14.03.40:299][471]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2022.07.12-14.03.40:308][471]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2022.07.12-14.03.40:308][471]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2022.07.12-14.03.40:308][471]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2022.07.12-14.03.40:334][471]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2022.07.12-14.03.40:342][471]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2022.07.12-14.03.40:351][471]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2022.07.12-14.03.40:351][471]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2022.07.12-14.03.40:352][471]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2022.07.12-14.03.40:352][471]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2022.07.12-14.03.40:364][471]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2022.07.12-14.03.40:364][471]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2022.07.12-14.03.40:387][471]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2022.07.12-14.03.40:387][471]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2022.07.12-14.03.40:388][471]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2022.07.12-14.03.40:388][471]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2022.07.12-14.03.40:388][471]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2022.07.12-14.03.40:388][471]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2022.07.12-14.03.40:388][471]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2022.07.12-14.03.40:388][471]LogModuleManager: Shutting down and abandoning module Core (178)
+[2022.07.12-14.03.40:388][471]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2022.07.12-14.03.40:388][471]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2022.07.12-14.03.40:388][471]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2022.07.12-14.03.40:398][471]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2022.07.12-14.03.40:398][471]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2022.07.12-14.03.40:398][471]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2022.07.12-14.03.40:417][471]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2022.07.12-14.03.40:417][471]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2022.07.12-14.03.40:417][471]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2022.07.12-14.03.40:420][471]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2022.07.12-14.03.40:421][471]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2022.07.12-14.03.40:495][471]LogDerivedDataCache: Shutdown
+[2022.07.12-14.03.40:495][471]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2022.07.12-14.03.40:495][471]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2022.07.12-14.03.40:495][471]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2022.07.12-14.03.40:495][471]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2022.07.12-14.03.40:495][471]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2022.07.12-14.03.40:495][471]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2022.07.12-14.03.40:495][471]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2022.07.12-14.03.40:509][471]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2022.07.12-14.03.40:528][471]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2022.07.12-14.03.40:528][471]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2022.07.12-14.03.40:528][471]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2022.07.12-14.03.40:528][471]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2022.07.12-14.03.40:528][471]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2022.07.12-14.03.40:556][471]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2022.07.12-14.03.40:571][471]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2022.07.12-14.03.40:579][471]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.07.12-14.03.40:579][471]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B163BCA1F-4558-319A-BB20-0CAD3CEFD909%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=e79f5cc5407acae592eeb0a476ccd7a2%7C08905224029e428f9f07defacfcb4ba1%7C77501964-0de5-4002-8f6f-3f941ea6e768&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2022.07.12-14.03.40:581][471]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2022.07.12-14.03.40:590][471]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2022.07.12-14.03.40:590][471]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.07.12-14.03.40:598][471]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.07.12-14.03.40:614][471]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2022.07.12-14.03.40:616][471]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2022.07.12-14.03.40:616][471]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2022.07.12-14.03.40:616][471]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2022.07.12-14.03.40:629][471]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2022.07.12-14.03.40:636][471]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2022.07.12-14.03.40:636][471]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2022.07.12-14.03.40:636][471]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2022.07.12-14.03.40:636][471]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2022.07.12-14.03.40:636][471]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2022.07.12-14.03.40:636][471]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2022.07.12-14.03.40:636][471]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2022.07.12-14.03.40:636][471]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2022.07.12-14.03.40:636][471]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2022.07.12-14.03.40:636][471]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2022.07.12-14.03.40:655][471]LogExit: Exiting.
+[2022.07.12-14.03.40:663][471]Log file closed, 07/12/22 23:03:40

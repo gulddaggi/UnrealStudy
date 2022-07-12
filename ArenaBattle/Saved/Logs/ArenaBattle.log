@@ -1,4 +1,4 @@
-﻿Log file open, 04/09/22 03:44:10
+﻿Log file open, 07/12/22 22:00:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ArenaBattle
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1148237639) SRandInit(-1148237639).
+LogInit: Display: RandInit(634985424) SRandInit(634985424).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.527814
+LogStats: Stats thread started at 0.528452
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,8 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.079s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../../UE4CPP/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattle-7232.dll (API version 3944462).
+LogStreaming: Display: Took  0.085s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../UE4CPP/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattle-5884.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -189,7 +189,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-7F2F2D9 (211.57.219.117:0)
+LogInit: WinSock: I am DESKTOP-7F2F2D9 (211.57.218.160:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -220,594 +220,895 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: 
 LogInit: Base Directory: D:/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.036s to delete old logs.
+LogStreaming: Display: Took  0.016s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2022.04.08-18.44.12:578][  0]LogInit: Selected Device Profile: [Windows]
-[2022.04.08-18.44.12:578][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.04.08-18.44.12:584][  0]LogInit: Computer: DESKTOP-7F2F2D9
-[2022.04.08-18.44.12:584][  0]LogInit: User: guldd
-[2022.04.08-18.44.12:584][  0]LogInit: CPU Page size=4096, Cores=6
-[2022.04.08-18.44.12:584][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.04.08-18.44.12:584][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2022.04.08-18.44.12:584][  0]LogMemory: Platform Memory Stats for Windows
-[2022.04.08-18.44.12:584][  0]LogMemory: Process Physical Memory: 278.22 MB used, 278.22 MB peak
-[2022.04.08-18.44.12:584][  0]LogMemory: Process Virtual Memory: 271.64 MB used, 271.64 MB peak
-[2022.04.08-18.44.12:584][  0]LogMemory: Physical Memory: 7638.02 MB used,  8671.27 MB free, 16309.28 MB total
-[2022.04.08-18.44.12:584][  0]LogMemory: Virtual Memory: 4800.46 MB used,  8671.27 MB free, 134217728.00 MB total
-[2022.04.08-18.44.12:601][  0]LogInit: Using OS detected language (ko-KR).
-[2022.04.08-18.44.12:602][  0]LogInit: Using OS detected locale (ko-KR).
-[2022.04.08-18.44.12:605][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2022.04.08-18.44.12:904][  0]LogStreaming: Display: Took  0.303s to EndInitTextLocalization.
-[2022.04.08-18.44.12:904][  0]LogInit: Setting process to per monitor DPI aware
-[2022.04.08-18.44.12:955][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2022.04.08-18.44.12:955][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2022.04.08-18.44.13:194][  0]LogD3D11RHI: D3D11 adapters:
-[2022.04.08-18.44.13:306][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
-[2022.04.08-18.44.13:306][  0]LogD3D11RHI:       8050/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2022.04.08-18.44.13:308][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2022.04.08-18.44.13:308][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2022.04.08-18.44.13:308][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2022.04.08-18.44.13:313][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2022.04.08-18.44.13:313][  0]LogD3D11RHI:     GPU DeviceId: 0x2486 (for the marketing name, search the web for "GPU Device Id")
-[2022.04.08-18.44.13:313][  0]LogWindows: EnumDisplayDevices:
-[2022.04.08-18.44.13:313][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
-[2022.04.08-18.44.13:313][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2022.04.08-18.44.13:314][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2022.04.08-18.44.13:314][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2022.04.08-18.44.13:315][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2022.04.08-18.44.13:315][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
-[2022.04.08-18.44.13:315][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2022.04.08-18.44.13:315][  0]LogD3D11RHI:      Driver Date: Unknown
-[2022.04.08-18.44.13:315][  0]LogRHI: Texture pool is 5635 MB (70% of 8050 MB)
-[2022.04.08-18.44.13:389][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2022.04.08-18.44.13:389][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2022.04.08-18.44.13:389][  0]LogD3D11RHI: Async texture creation enabled
-[2022.04.08-18.44.13:406][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2022.04.08-18.44.13:409][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../UE4CPP/ArenaBattle/Intermediate/Shaders/WorkingDirectory/6768/).
-[2022.04.08-18.44.13:409][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/guldd/AppData/Local/Temp/UnrealShaderWorkingDir/1E02DE3A4426E98619D79AB8A485985A/'.
-[2022.04.08-18.44.13:650][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2022.04.08-18.44.13:662][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2022.04.08-18.44.13:672][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2022.04.08-18.44.13:684][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2022.04.08-18.44.13:696][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2022.04.08-18.44.13:707][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2022.04.08-18.44.13:718][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2022.04.08-18.44.13:730][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2022.04.08-18.44.13:735][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2022.04.08-18.44.13:745][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2022.04.08-18.44.13:755][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2022.04.08-18.44.13:765][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2022.04.08-18.44.13:775][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2022.04.08-18.44.13:785][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2022.04.08-18.44.13:795][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2022.04.08-18.44.13:815][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2022.04.08-18.44.13:815][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2022.04.08-18.44.13:826][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2022.04.08-18.44.13:827][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2022.04.08-18.44.13:862][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2022.04.08-18.44.13:872][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2022.04.08-18.44.13:882][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2022.04.08-18.44.13:892][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2022.04.08-18.44.13:901][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2022.04.08-18.44.13:912][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2022.04.08-18.44.13:912][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2022.04.08-18.44.14:012][  0]LogXGEController: Cleaning working directory: C:/Users/guldd/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2022.04.08-18.44.14:012][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2022.04.08-18.44.14:012][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2022.04.08-18.44.14:012][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2022.04.08-18.44.14:580][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2022.04.08-18.44.14:635][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2022.04.08-18.44.14:635][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2022.04.08-18.44.14:635][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4CPP/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2022.04.08-18.44.14:635][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2022.04.08-18.44.14:635][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE4CPP/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2022.04.08-18.44.14:635][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2022.04.08-18.44.14:646][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2022.04.08-18.44.14:659][  0]LogDerivedDataCache: Using Local data cache path C:/Users/guldd/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2022.04.08-18.44.14:659][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2022.04.08-18.44.14:659][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2022.04.08-18.44.14:668][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2022.04.08-18.44.14:668][  0]LogSlate: Using Freetype 2.6.0
-[2022.04.08-18.44.14:669][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.04.08-18.44.14:669][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2022.04.08-18.44.14:785][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
-[2022.04.08-18.44.15:022][  0]LogInit: Selected Device Profile: [Windows]
-[2022.04.08-18.44.15:143][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2022.04.08-18.44.15:145][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2022.04.08-18.44.15:145][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2022.04.08-18.44.15:145][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2022.04.08-18.44.15:145][  0]LogMeshReduction: No automatic mesh merging module available
-[2022.04.08-18.44.15:145][  0]LogMeshMerging: No automatic mesh merging module available
-[2022.04.08-18.44.15:172][  0]LogNetVersion: ArenaBattle , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3555152549)
-[2022.04.08-18.44.15:491][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.047029 seconds
-[2022.04.08-18.44.15:495][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2022.04.08-18.44.15:495][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2022.04.08-18.44.15:495][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2022.04.08-18.44.16:883][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2022.04.08-18.44.16:911][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2022.04.08-18.44.17:158][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.200500ms] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
-[2022.04.08-18.44.17:168][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002a1bc6f8aa8, Size=20, Default__WarriorAnimBlueprint_C Function /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
-[2022.04.08-18.44.17:175][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002a1bc6f8aa8, Size=20
-[2022.04.08-18.44.17:175][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002a1bc728a78, Size=20, Default__WarriorAnimBlueprint_C Function /Engine/Transient.REINST_WarriorAnimBlueprint_C_0:ExecuteUbergraph_WarriorAnimBlueprint
-[2022.04.08-18.44.17:180][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002a1bd097688, Size=20, Default__WarriorAnimBlueprint_C Function /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
-[2022.04.08-18.44.17:196][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.055900ms] /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight
-[2022.04.08-18.44.17:197][  0]LogUObjectGlobals: Warning: 'DataTable /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight' 오브젝트를 찾는 데 실패했습니다.
-[2022.04.08-18.44.17:197][  0]Error: CDO Constructor (ABGameInstance): Failed to find /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight
-
-[2022.04.08-18.44.17:197][  0]ArenaBattle: Error: UABGameInstance::UABGameInstance(10) ASSERTION : 'DT_ABCHARACTER.Succeeded()'
-[2022.04.08-18.44.17:222][  0]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
-[2022.04.08-18.44.17:222][  0]LogUObjectBase: Warning: Error: CDO Constructor (ABGameInstance): Failed to find /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight
-
-[2022.04.08-18.44.21:505][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2022.04.08-18.44.21:637][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.04.08-18.44.21:637][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.04.08-18.44.21:654][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.04.08-18.44.21:671][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.04.08-18.44.22:129][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2022.04.08-18.44.22:361][  0]LogOcInput: OculusInput pre-init called
-[2022.04.08-18.44.22:454][  0]LogEngine: Initializing Engine...
-[2022.04.08-18.44.22:455][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2022.04.08-18.44.22:457][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2022.04.08-18.44.22:457][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2022.04.08-18.44.22:626][  0]LogAIModule: Creating AISystem for world Untitled
-[2022.04.08-18.44.22:689][  0]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.04.08-18.44.22:738][  0]LogInit: FAudioDevice initialized.
-[2022.04.08-18.44.22:782][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2022.04.08-18.44.22:791][  0]LogInit: Texture streaming: Enabled
-[2022.04.08-18.44.22:808][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2022.04.08-18.44.22:808][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={0B441E49-4C30-DEB0-7DC4-6CA8EE999B7F}
-[2022.04.08-18.44.22:818][  0]LogInit: Transaction tracking system initialized
-[2022.04.08-18.44.22:837][  0]BlueprintLog: New page: 에디터 로드
-[2022.04.08-18.44.22:900][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
-[2022.04.08-18.44.22:983][  0]LogConsoleResponse: Display: 
-[2022.04.08-18.44.23:097][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2022.04.08-18.44.23:097][  0]LogCook: Display: Mobile HDR setting 1
-[2022.04.08-18.44.23:097][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2022.04.08-18.44.23:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2022.04.08-18.44.23:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2022.04.08-18.44.23:429][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Content/' took 0.03s
-[2022.04.08-18.44.23:429][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
-[2022.04.08-18.44.23:429][  0]Cmd: MAP LOAD FILE="../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2022.04.08-18.44.23:429][  0]LightingResults: New page: 라이팅 빌드
-[2022.04.08-18.44.23:431][  0]MapCheck: New page: 맵 체크
-[2022.04.08-18.44.23:431][  0]LightingResults: New page: 라이팅 빌드
-[2022.04.08-18.44.23:442][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002a1bc728a78, Size=20
-[2022.04.08-18.44.23:617][  0]LogAIModule: Creating AISystem for world Step2
-[2022.04.08-18.44.23:622][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2022.04.08-18.44.23:631][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2022.04.08-18.44.23:683][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 51.866ms.
-[2022.04.08-18.44.23:683][  0]LogFileHelpers: Loading map 'Step2' took 0.254
-[2022.04.08-18.44.23:758][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2022.04.08-18.44.23:817][  0]LogCollectionManager: Loaded 0 collections in 0.001231 seconds
-[2022.04.08-18.44.23:856][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Saved/Collections/' took 0.01s
-[2022.04.08-18.44.23:856][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Content/Developers/guldd/Collections/' took 0.01s
-[2022.04.08-18.44.23:856][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Content/Collections/' took 0.01s
-[2022.04.08-18.44.23:856][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2022.04.08-18.44.23:864][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2460 classes and 560 folders.
-[2022.04.08-18.44.23:870][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2022.04.08-18.44.23:910][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2022.04.08-18.44.23:915][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2022.04.08-18.44.24:002][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2022.04.08-18.44.24:002][  0]LogLoad: (Engine Initialization) Total time: 14.49 seconds
-[2022.04.08-18.44.24:002][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2022.04.08-18.44.24:030][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2022.04.08-18.44.24:032][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2022.04.08-18.44.24:034][  0]LogSlate: Took 0.001695 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
-[2022.04.08-18.44.24:036][  0]LogSlate: Took 0.002025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
-[2022.04.08-18.44.24:037][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2022.04.08-18.44.24:040][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2022.04.08-18.44.24:152][  1]LogRenderer: Reallocating scene render targets to support 768x360 Format 10 NumSamples 1 (Frame:1).
-[2022.04.08-18.44.24:214][  1]LogAssetRegistry: Asset discovery search completed in 9.4524 seconds
-[2022.04.08-18.44.24:217][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2022.04.08-18.44.24:217][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
-[2022.04.08-18.44.24:277][  2]ArenaBattle: Warning: AFountain::PostInitializeComponents(78)
-[2022.04.08-18.44.24:306][  3]ArenaBattle: Warning: AABPawn::PostInitializeComponents(66)
-[2022.04.08-18.44.26:699][198]LogRenderer: Reallocating scene render targets to support 768x796 Format 10 NumSamples 1 (Frame:200).
-[2022.04.08-18.44.34:007][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.04.08-18.45.15:153][335]LogHotReload: New module detected: UE4Editor-ArenaBattle-7964.dll
-[2022.04.08-18.45.16:167][339]LogHotReload: Starting Hot-Reload from IDE
-[2022.04.08-18.45.16:171][339]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2022.04.08-18.45.16:575][339]LogClass: ABCharacterData HotReload.
-[2022.04.08-18.45.16:578][339]LogHotReload: Re-instancing ABCharacter after hot-reload.
-[2022.04.08-18.45.16:680][339]LogHotReload: Re-instancing ABGameInstance after hot-reload.
-[2022.04.08-18.45.16:716][339]LogHotReload: Re-instancing ABPawn after hot-reload.
-[2022.04.08-18.45.16:785][339]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0007 seconds. Added 8 classes and 2 folders.
-[2022.04.08-18.45.16:787][339]Display: HotReload successful (3 functions remapped  1 scriptstructs remapped)
-[2022.04.08-18.45.16:930][339]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2461 classes and 562 folders.
-[2022.04.08-18.45.16:934][339]Display: HotReload took  0.8s.
-[2022.04.08-18.45.19:563][492]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.04.08-18.45.19:574][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.04.08-18.45.19:575][492]PIE: New page: PIE 세션: Step2 (2022. 4. 9. 오후 12:45:19)
-[2022.04.08-18.45.19:575][492]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
-[2022.04.08-18.45.19:577][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002572s)
-[2022.04.08-18.45.19:578][492]LogAIModule: Creating AISystem for world Step2
-[2022.04.08-18.45.19:578][492]LogPlayLevel: PIE: World Init took: (0.000644s)
-[2022.04.08-18.45.19:578][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003368s)
-[2022.04.08-18.45.19:585][492]ArenaBattle: Warning: UABGameInstance::Init(20)
-[2022.04.08-18.45.19:585][492]ArenaBattle: Warning: UABGameInstance::Init(21) DropExp of level 20 ABCharacter : 105
-[2022.04.08-18.45.19:636][492]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.04.08-18.45.19:655][492]LogInit: FAudioDevice initialized.
-[2022.04.08-18.45.19:698][492]LogLoad: Game class is 'ABGameMode'
-[2022.04.08-18.45.19:700][492]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.04.09-03.45.19
-[2022.04.08-18.45.19:700][492]LogWorld: Bringing up level for play took: 0.001482
-[2022.04.08-18.45.19:701][492]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
-[2022.04.08-18.45.19:701][492]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
-[2022.04.08-18.45.19:757][492]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2022.04.08-18.45.19:758][492]ArenaBattle: Warning: AABPlayerController::Possess(15)
-[2022.04.08-18.45.19:758][492]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
-[2022.04.08-18.45.19:758][492]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.646
-[2022.04.08-18.45.23:996][997]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_e0398abac6bbd79b4bf49d8eb0badefe>::operator ()(138) OnNextAttackCheck
-[2022.04.08-18.45.24:075][  2]ArenaBattle: Warning: AABCharacter::AttackCheck(334) Hit Actor Name : ABCharacter_2
-[2022.04.08-18.45.24:075][  2]ArenaBattle: Warning: AABCharacter::TakeDamage(345) Actor : ABCharacter_2 took Damage : 50.000000
-[2022.04.08-18.45.26:194][246]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2022.04.08-18.45.27:061][345]LogSlate: Took 0.038639 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2022.04.08-18.45.27:130][345]LogSlate: Took 0.037078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
-[2022.04.08-18.45.31:081][816]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_e0398abac6bbd79b4bf49d8eb0badefe>::operator ()(138) OnNextAttackCheck
-[2022.04.08-18.45.33:272][ 79]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_e0398abac6bbd79b4bf49d8eb0badefe>::operator ()(138) OnNextAttackCheck
-[2022.04.08-18.46.23:227][743]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_SQUARE)
-[2022.04.08-18.46.23:425][743]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2022.04.08-18.46.25:483][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SQUARE)
-[2022.04.08-18.46.26:806][132]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2022.04.08-18.59.38:389][108]LogHotReload: New module detected: UE4Editor-ArenaBattle-279.dll
-[2022.04.08-18.59.39:409][112]LogHotReload: Starting Hot-Reload from IDE
-[2022.04.08-18.59.39:826][112]LogClass: ABCharacterData HotReload.
-[2022.04.08-18.59.39:830][112]LogHotReload: Re-instancing ABCharacter after hot-reload.
-[2022.04.08-18.59.39:938][112]LogHotReload: Re-instancing ABPawn after hot-reload.
-[2022.04.08-18.59.40:012][112]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0007 seconds. Added 8 classes and 2 folders.
-[2022.04.08-18.59.40:014][112]Display: HotReload successful (3 functions remapped  1 scriptstructs remapped)
-[2022.04.08-18.59.40:044][112]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2461 classes and 562 folders.
-[2022.04.08-18.59.40:049][112]Display: HotReload took  0.6s.
-[2022.04.08-18.59.45:978][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.04.08-18.59.46:070][432]LogTemp: Repeating last play command: 선택된 뷰포트
-[2022.04.08-18.59.46:082][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2022.04.08-18.59.46:082][432]PIE: New page: PIE 세션: Step2 (2022. 4. 9. 오후 12:59:46)
-[2022.04.08-18.59.46:082][432]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
-[2022.04.08-18.59.46:084][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001861s)
-[2022.04.08-18.59.46:085][432]LogAIModule: Creating AISystem for world Step2
-[2022.04.08-18.59.46:085][432]LogPlayLevel: PIE: World Init took: (0.000783s)
-[2022.04.08-18.59.46:085][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.002982s)
-[2022.04.08-18.59.46:092][432]ArenaBattle: Warning: UABGameInstance::Init(18)
-[2022.04.08-18.59.46:092][432]ArenaBattle: Warning: UABGameInstance::Init(19) DropExp of level 20 ABCharacter : 105
-[2022.04.08-18.59.46:144][432]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2022.04.08-18.59.46:165][432]LogInit: FAudioDevice initialized.
-[2022.04.08-18.59.46:196][432]LogLoad: Game class is 'ABGameMode'
-[2022.04.08-18.59.46:197][432]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.04.09-03.59.46
-[2022.04.08-18.59.46:198][432]LogWorld: Bringing up level for play took: 0.001202
-[2022.04.08-18.59.46:198][432]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
-[2022.04.08-18.59.46:198][432]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
-[2022.04.08-18.59.46:199][432]ArenaBattle: Warning: AABPlayerController::Possess(15)
-[2022.04.08-18.59.46:199][432]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
-[2022.04.08-18.59.46:199][432]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 1.086
-[2022.04.08-18.59.48:569][714]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_e0398abac6bbd79b4bf49d8eb0badefe>::operator ()(138) OnNextAttackCheck
-[2022.04.08-18.59.48:610][719]ArenaBattle: Warning: AABCharacter::AttackCheck(334) Hit Actor Name : ABCharacter_2
-[2022.04.08-18.59.48:610][719]ArenaBattle: Warning: AABCharacter::TakeDamage(345) Actor : ABCharacter_2 took Damage : 50.000000
-[2022.04.08-18.59.54:528][429]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_e0398abac6bbd79b4bf49d8eb0badefe>::operator ()(138) OnNextAttackCheck
-[2022.04.08-18.59.55:593][557]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_e0398abac6bbd79b4bf49d8eb0badefe>::operator ()(138) OnNextAttackCheck
-[2022.04.08-19.00.37:145][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.04.08-19.00.37:333][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Step2" FILE="../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2022.04.08-19.00.37:574][397]LogSavePackage: Save=49.88ms
-[2022.04.08-19.00.37:574][397]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/Step263EBC01B42898F1DEAA6C999697F858E.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap'
-[2022.04.08-19.00.37:575][397]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap
-[2022.04.08-19.00.37:623][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Step2_BuiltData" FILE="../../../../UE4CPP/ArenaBattle/Content/Maps/Step2_BuiltData.uasset" SILENT=true
-[2022.04.08-19.00.37:651][397]LogSavePackage: Save=23.57ms
-[2022.04.08-19.00.37:651][397]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/Step2_BuiltData05AD80E74EE7BD222A939E977EFCC62C.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Maps/Step2_BuiltData.uasset'
-[2022.04.08-19.00.37:652][397]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Maps/Step2_BuiltData.uasset
-[2022.04.08-19.00.39:653][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2022.04.08-19.00.39:929][650]LogSlate: Window 'ArenaBattle - 언리얼 에디터' being destroyed
-[2022.04.08-19.00.39:932][650]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
-[2022.04.08-19.00.40:168][651]Cmd: QUIT_EDITOR
-[2022.04.08-19.00.41:090][651]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2022.04.08-19.00.41:090][651]LogExit: Preparing to exit.
-[2022.04.08-19.00.41:718][651]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/ArenaBattle/Content/' was aborted.
-[2022.04.08-19.00.41:833][651]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002a1bd097688, Size=20
-[2022.04.08-19.00.41:857][651]LogExit: Editor shut down
-[2022.04.08-19.00.41:860][651]LogExit: Transaction tracking system shut down
-[2022.04.08-19.00.42:034][651]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2022.04.08-19.00.42:034][651]LogDirectoryWatcher: A directory notification for '../../../../UE4CPP/ArenaBattle/Content/' was aborted.
-[2022.04.08-19.00.42:034][651]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2022.04.08-19.00.42:035][651]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2022.04.08-19.00.42:035][651]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2022.04.08-19.00.42:035][651]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2022.04.08-19.00.42:035][651]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2022.04.08-19.00.42:035][651]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2022.04.08-19.00.43:001][651]LogExit: Object subsystem successfully closed.
-[2022.04.08-19.00.43:047][651]LogShaderCompilers: Display: Shaders left to compile 0
-[2022.04.08-19.00.43:069][651]LogD3D11RHI: Shutdown
-[2022.04.08-19.00.43:069][651]LogD3D11RHI: CleanupD3DDevice
-[2022.04.08-19.00.43:103][651]LogD3D11RHI: ~FD3D11DynamicRHI
-[2022.04.08-19.00.44:023][651]LogModuleManager: Shutting down and abandoning module ArenaBattle (580)
-[2022.04.08-19.00.44:023][651]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (579)
-[2022.04.08-19.00.44:023][651]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
-[2022.04.08-19.00.44:024][651]LogModuleManager: Shutting down and abandoning module DesktopPlatform (574)
-[2022.04.08-19.00.44:034][651]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
-[2022.04.08-19.00.44:034][651]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
-[2022.04.08-19.00.44:038][651]LogDirectoryWatcher: A directory notification for 'D:/UE_4.19/FeaturePacks/' was aborted.
-[2022.04.08-19.00.44:039][651]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
-[2022.04.08-19.00.44:039][651]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
-[2022.04.08-19.00.44:039][651]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
-[2022.04.08-19.00.44:045][651]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/ArenaBattle/Content/Collections/' was aborted.
-[2022.04.08-19.00.44:045][651]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/ArenaBattle/Content/Developers/guldd/Collections/' was aborted.
-[2022.04.08-19.00.44:045][651]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/ArenaBattle/Saved/Collections/' was aborted.
-[2022.04.08-19.00.44:045][651]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module BspMode (546)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
-[2022.04.08-19.00.44:060][651]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
-[2022.04.08-19.00.44:088][651]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
-[2022.04.08-19.00.44:088][651]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
-[2022.04.08-19.00.44:101][651]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
-[2022.04.08-19.00.44:101][651]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
-[2022.04.08-19.00.44:142][651]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
-[2022.04.08-19.00.44:142][651]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
-[2022.04.08-19.00.44:142][651]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module SessionServices (500)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
-[2022.04.08-19.00.44:156][651]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
-[2022.04.08-19.00.44:219][651]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
-[2022.04.08-19.00.44:219][651]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
-[2022.04.08-19.00.44:250][651]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
-[2022.04.08-19.00.44:277][651]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
-[2022.04.08-19.00.44:288][651]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
-[2022.04.08-19.00.44:288][651]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
-[2022.04.08-19.00.44:288][651]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
-[2022.04.08-19.00.44:288][651]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
-[2022.04.08-19.00.44:461][651]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
-[2022.04.08-19.00.44:461][651]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
-[2022.04.08-19.00.44:461][651]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
-[2022.04.08-19.00.44:461][651]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
-[2022.04.08-19.00.44:480][651]LogModuleManager: Shutting down and abandoning module MergeActors (468)
-[2022.04.08-19.00.44:494][651]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
-[2022.04.08-19.00.44:501][651]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
-[2022.04.08-19.00.44:510][651]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
-[2022.04.08-19.00.44:510][651]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
-[2022.04.08-19.00.44:522][651]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
-[2022.04.08-19.00.44:522][651]LogModuleManager: Shutting down and abandoning module XmlParser (456)
-[2022.04.08-19.00.44:522][651]LogModuleManager: Shutting down and abandoning module Blutility (454)
-[2022.04.08-19.00.44:522][651]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
-[2022.04.08-19.00.44:522][651]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
-[2022.04.08-19.00.44:522][651]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
-[2022.04.08-19.00.44:522][651]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
-[2022.04.08-19.00.44:531][651]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
-[2022.04.08-19.00.44:542][651]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
-[2022.04.08-19.00.44:565][651]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
-[2022.04.08-19.00.44:565][651]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
-[2022.04.08-19.00.44:580][651]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
-[2022.04.08-19.00.44:641][651]LogModuleManager: Shutting down and abandoning module AutomationController (434)
-[2022.04.08-19.00.44:660][651]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
-[2022.04.08-19.00.44:688][651]LogModuleManager: Shutting down and abandoning module Layers (430)
-[2022.04.08-19.00.44:688][651]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
-[2022.04.08-19.00.44:688][651]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
-[2022.04.08-19.00.44:695][651]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
-[2022.04.08-19.00.44:695][651]LogModuleManager: Shutting down and abandoning module Persona (422)
-[2022.04.08-19.00.44:695][651]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
-[2022.04.08-19.00.44:695][651]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
-[2022.04.08-19.00.44:695][651]LogModuleManager: Shutting down and abandoning module Kismet (416)
-[2022.04.08-19.00.44:705][651]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
-[2022.04.08-19.00.44:705][651]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
-[2022.04.08-19.00.44:705][651]LogModuleManager: Shutting down and abandoning module Toolbox (410)
-[2022.04.08-19.00.44:705][651]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
-[2022.04.08-19.00.44:705][651]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
-[2022.04.08-19.00.44:727][651]LogModuleManager: Shutting down and abandoning module OutputLog (404)
-[2022.04.08-19.00.44:727][651]LogModuleManager: Shutting down and abandoning module GammaUI (402)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module Documentation (400)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module MovieScene (396)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module PortalServices (388)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module AIModule (382)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
-[2022.04.08-19.00.44:745][651]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
-[2022.04.08-19.00.44:756][651]LogModuleManager: Shutting down and abandoning module ProfilerService (376)
-[2022.04.08-19.00.44:758][651]LogModuleManager: Shutting down and abandoning module TaskGraph (374)
-[2022.04.08-19.00.44:758][651]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
-[2022.04.08-19.00.44:758][651]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
-[2022.04.08-19.00.44:758][651]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
-[2022.04.08-19.00.44:766][651]LogModuleManager: Shutting down and abandoning module OculusInput (366)
-[2022.04.08-19.00.44:766][651]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
-[2022.04.08-19.00.44:766][651]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
-[2022.04.08-19.00.44:766][651]LogModuleManager: Shutting down and abandoning module CableComponent (360)
-[2022.04.08-19.00.44:766][651]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
-[2022.04.08-19.00.44:766][651]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
-[2022.04.08-19.00.44:766][651]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
-[2022.04.08-19.00.44:766][651]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
-[2022.04.08-19.00.44:766][651]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
-[2022.04.08-19.00.44:781][651]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
-[2022.04.08-19.00.44:781][651]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
-[2022.04.08-19.00.44:781][651]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
-[2022.04.08-19.00.44:781][651]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
-[2022.04.08-19.00.44:784][651]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
-[2022.04.08-19.00.44:784][651]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
-[2022.04.08-19.00.44:796][651]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
-[2022.04.08-19.00.44:796][651]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
-[2022.04.08-19.00.44:796][651]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
-[2022.04.08-19.00.44:796][651]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
-[2022.04.08-19.00.44:796][651]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
-[2022.04.08-19.00.44:796][651]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
-[2022.04.08-19.00.44:809][651]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
-[2022.04.08-19.00.44:809][651]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
-[2022.04.08-19.00.44:813][651]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
-[2022.04.08-19.00.44:813][651]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
-[2022.04.08-19.00.44:813][651]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
-[2022.04.08-19.00.44:813][651]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
-[2022.04.08-19.00.44:813][651]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
-[2022.04.08-19.00.44:823][651]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
-[2022.04.08-19.00.44:824][651]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
-[2022.04.08-19.00.44:836][651]LogModuleManager: Shutting down and abandoning module SourceControl (305)
-[2022.04.08-19.00.44:849][651]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
-[2022.04.08-19.00.44:850][651]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
-[2022.04.08-19.00.44:850][651]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
-[2022.04.08-19.00.44:850][651]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
-[2022.04.08-19.00.44:850][651]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
-[2022.04.08-19.00.44:871][651]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
-[2022.04.08-19.00.44:871][651]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2022.04.08-19.00.44:871][651]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2022.04.08-19.00.44:871][651]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2022.04.08-19.00.44:871][651]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2022.04.08-19.00.44:871][651]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2022.04.08-19.00.44:871][651]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2022.04.08-19.00.44:871][651]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2022.04.08-19.00.44:888][651]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2022.04.08-19.00.44:888][651]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2022.04.08-19.00.44:996][651]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2022.04.08-19.00.45:105][651]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2022.04.08-19.00.45:114][651]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2022.04.08-19.00.45:115][651]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2022.04.08-19.00.45:115][651]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2022.04.08-19.00.45:115][651]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2022.04.08-19.00.45:137][651]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2022.04.08-19.00.45:148][651]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2022.04.08-19.00.45:165][651]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2022.04.08-19.00.45:166][651]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2022.04.08-19.00.45:166][651]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2022.04.08-19.00.45:166][651]LogDirectoryWatcher: A directory notification for 'D:/UE4CPP/ArenaBattle/Binaries/Win64' was aborted.
-[2022.04.08-19.00.45:166][651]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2022.04.08-19.00.45:167][651]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2022.04.08-19.00.45:174][651]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2022.04.08-19.00.45:174][651]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2022.04.08-19.00.45:191][651]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2022.04.08-19.00.46:130][651]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2022.04.08-19.00.46:146][651]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2022.04.08-19.00.46:146][651]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2022.04.08-19.00.46:169][651]LogModuleManager: Shutting down and abandoning module Media (233)
-[2022.04.08-19.00.46:176][651]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2022.04.08-19.00.46:176][651]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2022.04.08-19.00.46:176][651]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2022.04.08-19.00.46:192][651]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2022.04.08-19.00.46:192][651]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2022.04.08-19.00.46:192][651]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2022.04.08-19.00.46:192][651]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2022.04.08-19.00.46:205][651]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2022.04.08-19.00.46:205][651]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2022.04.08-19.00.46:205][651]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2022.04.08-19.00.46:235][651]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2022.04.08-19.00.46:243][651]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2022.04.08-19.00.46:277][651]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2022.04.08-19.00.46:277][651]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2022.04.08-19.00.46:286][651]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2022.04.08-19.00.46:321][651]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2022.04.08-19.00.46:340][651]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2022.04.08-19.00.46:340][651]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2022.04.08-19.00.46:363][651]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2022.04.08-19.00.46:363][651]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2022.04.08-19.00.46:364][651]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2022.04.08-19.00.46:364][651]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2022.04.08-19.00.46:364][651]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2022.04.08-19.00.46:364][651]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2022.04.08-19.00.46:364][651]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2022.04.08-19.00.46:364][651]LogModuleManager: Shutting down and abandoning module Core (178)
-[2022.04.08-19.00.46:364][651]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2022.04.08-19.00.46:386][651]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2022.04.08-19.00.46:386][651]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2022.04.08-19.00.46:407][651]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2022.04.08-19.00.46:407][651]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2022.04.08-19.00.46:407][651]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2022.04.08-19.00.46:427][651]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2022.04.08-19.00.46:427][651]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2022.04.08-19.00.46:427][651]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2022.04.08-19.00.46:436][651]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2022.04.08-19.00.46:437][651]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2022.04.08-19.00.46:525][651]LogDerivedDataCache: Shutdown
-[2022.04.08-19.00.46:525][651]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2022.04.08-19.00.46:525][651]LogXGEController: Cleaning working directory: C:/Users/guldd/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2022.04.08-19.00.46:525][651]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2022.04.08-19.00.46:525][651]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2022.04.08-19.00.46:548][651]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2022.04.08-19.00.46:553][651]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2022.04.08-19.00.46:574][651]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2022.04.08-19.00.46:574][651]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2022.04.08-19.00.46:592][651]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2022.04.08-19.00.46:593][651]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2022.04.08-19.00.46:615][651]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2022.04.08-19.00.46:615][651]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2022.04.08-19.00.46:615][651]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2022.04.08-19.00.46:615][651]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2022.04.08-19.00.46:615][651]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2022.04.08-19.00.46:640][651]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2022.04.08-19.00.46:662][651]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2022.04.08-19.00.46:671][651]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2022.04.08-19.00.46:671][651]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5F314327-4934-947B-02E0-48A3823CF727%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=e79f5cc5407acae592eeb0a476ccd7a2%7C08905224029e428f9f07defacfcb4ba1%7C77501964-0de5-4002-8f6f-3f941ea6e768&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2022.04.08-19.00.46:677][651]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2022.04.08-19.00.46:682][651]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2022.04.08-19.00.46:703][651]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2022.04.08-19.00.46:724][651]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2022.04.08-19.00.46:740][651]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2022.04.08-19.00.46:742][651]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2022.04.08-19.00.46:742][651]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2022.04.08-19.00.46:742][651]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2022.04.08-19.00.46:754][651]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2022.04.08-19.00.46:761][651]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2022.04.08-19.00.46:761][651]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2022.04.08-19.00.46:761][651]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2022.04.08-19.00.46:761][651]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2022.04.08-19.00.46:761][651]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2022.04.08-19.00.46:761][651]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2022.04.08-19.00.46:761][651]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2022.04.08-19.00.46:761][651]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2022.04.08-19.00.46:761][651]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2022.04.08-19.00.46:761][651]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2022.04.08-19.00.46:780][651]LogExit: Exiting.
-[2022.04.08-19.00.46:788][651]Log file closed, 04/09/22 04:00:46
+[2022.07.12-13.00.09:849][  0]LogInit: Selected Device Profile: [Windows]
+[2022.07.12-13.00.09:849][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.07.12-13.00.09:856][  0]LogInit: Computer: DESKTOP-7F2F2D9
+[2022.07.12-13.00.09:856][  0]LogInit: User: guldd
+[2022.07.12-13.00.09:856][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.07.12-13.00.09:856][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.07.12-13.00.09:856][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.07.12-13.00.09:856][  0]LogMemory: Platform Memory Stats for Windows
+[2022.07.12-13.00.09:856][  0]LogMemory: Process Physical Memory: 278.04 MB used, 278.05 MB peak
+[2022.07.12-13.00.09:856][  0]LogMemory: Process Virtual Memory: 271.71 MB used, 271.71 MB peak
+[2022.07.12-13.00.09:856][  0]LogMemory: Physical Memory: 8153.30 MB used,  8155.98 MB free, 16309.28 MB total
+[2022.07.12-13.00.09:856][  0]LogMemory: Virtual Memory: 4800.46 MB used,  8155.98 MB free, 134217728.00 MB total
+[2022.07.12-13.00.09:973][  0]LogInit: Using OS detected language (ko-KR).
+[2022.07.12-13.00.09:973][  0]LogInit: Using OS detected locale (ko-KR).
+[2022.07.12-13.00.09:977][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2022.07.12-13.00.10:291][  0]LogStreaming: Display: Took  0.319s to EndInitTextLocalization.
+[2022.07.12-13.00.10:292][  0]LogInit: Setting process to per monitor DPI aware
+[2022.07.12-13.00.10:341][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.07.12-13.00.10:341][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.07.12-13.00.10:609][  0]LogD3D11RHI: D3D11 adapters:
+[2022.07.12-13.00.10:722][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
+[2022.07.12-13.00.10:722][  0]LogD3D11RHI:       8050/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.07.12-13.00.10:724][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.07.12-13.00.10:724][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.07.12-13.00.10:724][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.07.12-13.00.10:729][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.07.12-13.00.10:730][  0]LogD3D11RHI:     GPU DeviceId: 0x2486 (for the marketing name, search the web for "GPU Device Id")
+[2022.07.12-13.00.10:730][  0]LogWindows: EnumDisplayDevices:
+[2022.07.12-13.00.10:730][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
+[2022.07.12-13.00.10:730][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2022.07.12-13.00.10:731][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2022.07.12-13.00.10:731][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2022.07.12-13.00.10:731][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2022.07.12-13.00.10:732][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
+[2022.07.12-13.00.10:732][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2022.07.12-13.00.10:732][  0]LogD3D11RHI:      Driver Date: Unknown
+[2022.07.12-13.00.10:732][  0]LogRHI: Texture pool is 5635 MB (70% of 8050 MB)
+[2022.07.12-13.00.10:813][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2022.07.12-13.00.10:813][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2022.07.12-13.00.10:813][  0]LogD3D11RHI: Async texture creation enabled
+[2022.07.12-13.00.10:828][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.07.12-13.00.10:831][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../UE4CPP/ArenaBattle/Intermediate/Shaders/WorkingDirectory/23084/).
+[2022.07.12-13.00.10:831][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/guldd/AppData/Local/Temp/UnrealShaderWorkingDir/73861B07425956AC96CD078F723A6D8A/'.
+[2022.07.12-13.00.11:160][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2022.07.12-13.00.11:172][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2022.07.12-13.00.11:183][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2022.07.12-13.00.11:195][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2022.07.12-13.00.11:207][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2022.07.12-13.00.11:219][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2022.07.12-13.00.11:230][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.07.12-13.00.11:243][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2022.07.12-13.00.11:248][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2022.07.12-13.00.11:259][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2022.07.12-13.00.11:270][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2022.07.12-13.00.11:280][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2022.07.12-13.00.11:291][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2022.07.12-13.00.11:301][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2022.07.12-13.00.11:312][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2022.07.12-13.00.11:333][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2022.07.12-13.00.11:333][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.07.12-13.00.11:344][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2022.07.12-13.00.11:345][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2022.07.12-13.00.11:382][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2022.07.12-13.00.11:392][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2022.07.12-13.00.11:402][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2022.07.12-13.00.11:413][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.07.12-13.00.11:422][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2022.07.12-13.00.11:433][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2022.07.12-13.00.11:433][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.07.12-13.00.11:550][  0]LogXGEController: Cleaning working directory: C:/Users/guldd/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.07.12-13.00.11:550][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.07.12-13.00.11:550][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.07.12-13.00.11:550][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.07.12-13.00.12:191][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.07.12-13.00.12:263][  0]LogDerivedDataCache: Loaded boot cache 0.07s 76MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2022.07.12-13.00.12:264][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2022.07.12-13.00.12:264][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4CPP/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.07.12-13.00.12:264][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.07.12-13.00.12:264][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE4CPP/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.07.12-13.00.12:264][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.07.12-13.00.12:277][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.07.12-13.00.12:290][  0]LogDerivedDataCache: Using Local data cache path C:/Users/guldd/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.07.12-13.00.12:290][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.07.12-13.00.12:290][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.07.12-13.00.12:300][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2022.07.12-13.00.12:301][  0]LogSlate: Using Freetype 2.6.0
+[2022.07.12-13.00.12:302][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.07.12-13.00.12:302][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.07.12-13.00.12:897][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2022.07.12-13.00.13:139][  0]LogInit: Selected Device Profile: [Windows]
+[2022.07.12-13.00.13:259][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2022.07.12-13.00.13:261][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2022.07.12-13.00.13:261][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.07.12-13.00.13:261][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2022.07.12-13.00.13:261][  0]LogMeshReduction: No automatic mesh merging module available
+[2022.07.12-13.00.13:261][  0]LogMeshMerging: No automatic mesh merging module available
+[2022.07.12-13.00.13:289][  0]LogNetVersion: ArenaBattle , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3555152549)
+[2022.07.12-13.00.13:629][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.050082 seconds
+[2022.07.12-13.00.13:633][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2022.07.12-13.00.13:633][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2022.07.12-13.00.13:633][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.07.12-13.00.15:118][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.07.12-13.00.15:148][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.07.12-13.00.15:410][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.212900ms] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2022.07.12-13.00.15:422][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002362d9c45e0, Size=20, Default__WarriorAnimBlueprint_C Function /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
+[2022.07.12-13.00.15:431][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002362d9c45e0, Size=20
+[2022.07.12-13.00.15:431][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002362da00ec8, Size=20, Default__WarriorAnimBlueprint_C Function /Engine/Transient.REINST_WarriorAnimBlueprint_C_0:ExecuteUbergraph_WarriorAnimBlueprint
+[2022.07.12-13.00.15:442][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002362e33f220, Size=20, Default__WarriorAnimBlueprint_C Function /Game/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
+[2022.07.12-13.00.15:536][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.082700ms] /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight
+[2022.07.12-13.00.15:711][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.07.12-13.00.15:711][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.07.12-13.00.15:731][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.07.12-13.00.15:751][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.07.12-13.00.16:266][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.07.12-13.00.16:527][  0]LogOcInput: OculusInput pre-init called
+[2022.07.12-13.00.16:630][  0]LogEngine: Initializing Engine...
+[2022.07.12-13.00.16:632][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.07.12-13.00.16:633][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.07.12-13.00.16:633][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.07.12-13.00.16:815][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.07.12-13.00.16:881][  0]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.00.16:909][  0]LogInit: FAudioDevice initialized.
+[2022.07.12-13.00.16:964][  0]LogDerivedDataCache: Saved boot cache 0.05s 76MB C:/Users/guldd/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2022.07.12-13.00.16:973][  0]LogInit: Texture streaming: Enabled
+[2022.07.12-13.00.16:990][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.07.12-13.00.16:990][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={DB09A705-4752-372D-1673-099DA62C8806}
+[2022.07.12-13.00.17:001][  0]LogInit: Transaction tracking system initialized
+[2022.07.12-13.00.17:022][  0]BlueprintLog: New page: 에디터 로드
+[2022.07.12-13.00.17:092][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2022.07.12-13.00.17:186][  0]LogConsoleResponse: Display: 
+[2022.07.12-13.00.17:309][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.07.12-13.00.17:309][  0]LogCook: Display: Mobile HDR setting 1
+[2022.07.12-13.00.17:309][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2022.07.12-13.00.17:309][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2022.07.12-13.00.17:309][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2022.07.12-13.00.17:636][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Content/' took 0.03s
+[2022.07.12-13.00.17:679][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2022.07.12-13.00.17:679][  0]Cmd: MAP LOAD FILE="../../../../UE4CPP/ArenaBattle/Content/Maps/Step2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.07.12-13.00.17:680][  0]LightingResults: New page: 라이팅 빌드
+[2022.07.12-13.00.17:682][  0]MapCheck: New page: 맵 체크
+[2022.07.12-13.00.17:682][  0]LightingResults: New page: 라이팅 빌드
+[2022.07.12-13.00.17:689][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002362da00ec8, Size=20
+[2022.07.12-13.00.17:809][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.547500ms] /Game/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_GreatBlade/SK_Blade_GreatBlade.SK_Blade_GreatBlade
+[2022.07.12-13.00.17:898][  0]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.00.17:903][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.07.12-13.00.17:912][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.07.12-13.00.17:974][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 61.107ms.
+[2022.07.12-13.00.17:974][  0]LogFileHelpers: Loading map 'Step2' took 0.295
+[2022.07.12-13.00.18:089][  0]LogCollectionManager: Loaded 0 collections in 0.001434 seconds
+[2022.07.12-13.00.18:130][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Saved/Collections/' took 0.01s
+[2022.07.12-13.00.18:130][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Content/Developers/guldd/Collections/' took 0.01s
+[2022.07.12-13.00.18:130][  0]LogFileCache: Scanning file cache for directory 'D:/UE4CPP/ArenaBattle/Content/Collections/' took 0.01s
+[2022.07.12-13.00.18:130][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2022.07.12-13.00.18:138][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2463 classes and 560 folders.
+[2022.07.12-13.00.18:143][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.07.12-13.00.18:186][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2022.07.12-13.00.18:192][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2022.07.12-13.00.18:277][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2022.07.12-13.00.18:277][  0]LogLoad: (Engine Initialization) Total time: 11.73 seconds
+[2022.07.12-13.00.18:277][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.07.12-13.00.18:637][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.07.12-13.00.18:638][  0]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.07.12-13.00.18:641][  0]LogSlate: Took 0.001806 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.07.12-13.00.18:643][  0]LogSlate: Took 0.001765 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2022.07.12-13.00.18:643][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.07.12-13.00.18:647][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.07.12-13.00.18:952][  1]LogRenderer: Reallocating scene render targets to support 768x360 Format 10 NumSamples 1 (Frame:1).
+[2022.07.12-13.00.18:961][  1]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(36) ASSERTION : 'nullptr != ABGameInstance'
+[2022.07.12-13.00.18:976][  1]LogAssetRegistry: Asset discovery search completed in 6.1009 seconds
+[2022.07.12-13.00.18:979][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2022.07.12-13.00.18:979][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000116 seconds (updated 0 objects)
+[2022.07.12-13.00.19:286][  2]ArenaBattle: Warning: AABPawn::PostInitializeComponents(66)
+[2022.07.12-13.00.19:620][  3]ArenaBattle: Warning: AFountain::PostInitializeComponents(78)
+[2022.07.12-13.01.27:346][326]LogRenderer: Reallocating scene render targets to support 768x796 Format 10 NumSamples 1 (Frame:127).
+[2022.07.12-13.01.30:859][740]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.01.30:910][740]LogSlate: Took 0.050028 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.07.12-13.01.30:978][740]LogSlate: Took 0.036235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2022.07.12-13.01.42:668][128]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.07.12-13.01.42:825][128]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/UE4CPP/ArenaBattle/Source/ArenaBattle/ABGameInstance.h'
+[2022.07.12-13.01.42:889][128]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/UE4CPP/ArenaBattle/Source/ArenaBattle/ABGameInstance.cpp'
+[2022.07.12-13.02.59:366][215]LogSlate: Took 0.016697 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.07.12-13.03.21:394][750]Running D:/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ArenaBattle Win64 Development -editorrecompile "D:/UE4CPP/ArenaBattle/ArenaBattle.uproject" -invalidatemakefilesonly
+[2022.07.12-13.03.21:670][750]Invalidating makefiles only in this run.
+[2022.07.12-13.03.21:933][750]Candidate modules for hot reload:
+[2022.07.12-13.03.21:933][750]  ArenaBattle
+[2022.07.12-13.03.21:933][750]Launching UnrealBuildTool... [D:/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ArenaBattle -ModuleWithSuffix=ArenaBattle,4687 Win64 Development -editorrecompile -canskiplink "D:/UE4CPP/ArenaBattle/ArenaBattle.uproject" ]
+[2022.07.12-13.03.54:614][750]CompilerResultsLog: New page: 컴파일 - 2022. 7. 13. 오전 7:03:54
+[2022.07.12-13.03.54:631][750]CompilerResultsLog: Creating makefile for hot reloading ArenaBattle (no existing makefile)
+[2022.07.12-13.03.54:631][750]CompilerResultsLog: Compiling game modules for hot reload
+[2022.07.12-13.03.54:631][750]CompilerResultsLog: Parsing headers for ArenaBattleEditor
+[2022.07.12-13.03.54:631][750]CompilerResultsLog:   Running UnrealHeaderTool "D:\UE4CPP\ArenaBattle\ArenaBattle.uproject" "D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2022.07.12-13.03.54:631][750]CompilerResultsLog: Reflection code generated for ArenaBattleEditor in 7.2682214 seconds
+[2022.07.12-13.03.54:631][750]CompilerResultsLog: Performing 5 actions (9 in parallel)
+[2022.07.12-13.03.54:632][750]CompilerResultsLog: MyGameInstance.cpp
+[2022.07.12-13.03.54:632][750]CompilerResultsLog: MyGameInstance.gen.cpp
+[2022.07.12-13.03.54:632][750]CompilerResultsLog: ArenaBattle.init.gen.cpp
+[2022.07.12-13.03.54:632][750]CompilerResultsLog: [4/5] Link UE4Editor-ArenaBattle-4687.dll
+[2022.07.12-13.03.54:632][750]CompilerResultsLog: [5/5] Link UE4Editor-ArenaBattle-4687.lib
+[2022.07.12-13.03.54:632][750]CompilerResultsLog:    D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-4687.lib ???̺귯?? ?? D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-4687.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.07.12-13.03.54:710][750]LogSlate: Took 0.077112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2022.07.12-13.03.54:736][750]LogSlate: Took 0.024890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/../../Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2022.07.12-13.03.54:796][750]LogSlate: Took 0.059270 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2022.07.12-13.03.54:796][750]CompilerResultsLog:    D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-4687.suppressed.lib ???̺귯?? ?? D:\UE4CPP\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-4687.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2022.07.12-13.03.54:796][750]CompilerResultsLog: Total build time: 32.49 seconds (Local executor: 1.89 seconds)
+[2022.07.12-13.03.54:797][750]LogMainFrame: MainFrame: Module compiling took 32.868 seconds
+[2022.07.12-13.03.55:197][750]LogClass: Could not find existing class MyGameInstance in package /Script/ArenaBattle for HotReload, assuming new class
+[2022.07.12-13.03.55:197][750]LogClass: ABCharacterData HotReload.
+[2022.07.12-13.03.55:200][750]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2022.07.12-13.03.55:310][750]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2022.07.12-13.03.55:414][750]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2022.07.12-13.03.55:486][750]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0009 seconds. Added 12 classes and 2 folders.
+[2022.07.12-13.03.55:487][750]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2022.07.12-13.03.55:632][750]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2465 classes and 562 folders.
+[2022.07.12-13.03.55:632][750]Display: HotReload took 33.7s.
+[2022.07.12-13.03.55:632][750]Warning: HotReload operation took 33.7s.
+[2022.07.12-13.03.55:866][750]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/UE4CPP/ArenaBattle/Source/ArenaBattle/MyGameInstance.cpp'
+[2022.07.12-13.03.55:930][750]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2022.07.12-13.03.56:018][750]LogHotReload: New module detected: UE4Editor-ArenaBattle-4687.dll
+[2022.07.12-13.03.56:110][751]LogHotReload: Starting Hot-Reload from IDE
+[2022.07.12-13.03.56:141][751]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0009 seconds. Added 12 classes and 2 folders.
+[2022.07.12-13.03.56:143][751]Display: HotReload successful (0 functions remapped  1 scriptstructs remapped)
+[2022.07.12-13.03.56:162][751]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2465 classes and 562 folders.
+[2022.07.12-13.03.56:191][751]Display: HotReload took  0.1s.
+[2022.07.12-13.03.56:198][751]ArenaBattle: Warning: AABPawn::PostInitializeComponents(66)
+[2022.07.12-13.15.20:209][803]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(36) ASSERTION : 'nullptr != ABGameInstance'
+[2022.07.12-13.15.39:108][629]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/UE4CPP/ArenaBattle/Source/ArenaBattle/MyGameInstance.cpp'
+[2022.07.12-13.21.47:216][734]LogHotReload: New module detected: UE4Editor-ArenaBattle-8721.dll
+[2022.07.12-13.21.48:232][738]LogHotReload: Starting Hot-Reload from IDE
+[2022.07.12-13.21.48:627][738]LogClass: Could not find existing class ABCharacterStatComponent in package /Script/ArenaBattle for HotReload, assuming new class
+[2022.07.12-13.21.48:627][738]LogClass: Could not find existing class ABCharacterWidget in package /Script/ArenaBattle for HotReload, assuming new class
+[2022.07.12-13.21.48:635][738]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2022.07.12-13.21.48:746][738]LogHotReload: Re-instancing ABCharacterStatComponent after hot-reload.
+[2022.07.12-13.21.48:781][738]LogHotReload: Re-instancing ABCharacterWidget after hot-reload.
+[2022.07.12-13.21.48:945][738]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2022.07.12-13.21.49:056][738]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2022.07.12-13.21.49:128][738]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0012 seconds. Added 12 classes and 2 folders.
+[2022.07.12-13.21.49:130][738]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2022.07.12-13.21.49:164][738]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2465 classes and 562 folders.
+[2022.07.12-13.21.49:169][738]Display: HotReload took  0.9s.
+[2022.07.12-13.22.03:177][780]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(36) ASSERTION : 'nullptr != ABGameInstance'
+[2022.07.12-13.22.03:510][781]ArenaBattle: Warning: AABPawn::PostInitializeComponents(66)
+[2022.07.12-13.22.05:147][914]LogEditorViewport: Clicking on Actor (LMB): ABItemBox (ABItemBox1)
+[2022.07.12-13.22.08:545][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.22.13:571][743]LogEditorActor: Deleted Actor: ABCharacter
+[2022.07.12-13.22.13:579][743]LogEditorActor: Deleted 1 Actors (0.163 secs)
+[2022.07.12-13.22.21:568][687]LogEditor: Attempting to add actor of class 'ABCharacter' to level at -670.00,-290.00,88.00
+[2022.07.12-13.22.22:241][737]LogEditor: Attempting to add actor of class 'ABCharacter' to level at -310.00,-350.00,88.00
+[2022.07.12-13.22.25:376][ 43]LogSlate: Took 0.016462 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.07.12-13.22.28:725][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.22.36:038][234]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.22.36:073][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.22.36:103][234]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:22:36)
+[2022.07.12-13.22.36:120][234]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.22.36:189][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068693s)
+[2022.07.12-13.22.36:190][234]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.22.36:190][234]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2022.07.12-13.22.36:190][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.069843s)
+[2022.07.12-13.22.36:287][234]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.22.36:308][234]LogInit: FAudioDevice initialized.
+[2022.07.12-13.22.36:372][234]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.22.36:407][234]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.22.36
+[2022.07.12-13.22.36:423][234]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.22.36:423][234]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.22.36:475][234]LogWorld: Bringing up level for play took: 0.080479
+[2022.07.12-13.22.36:548][234]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.22.36:578][234]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.22.36:643][234]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2022.07.12-13.22.36:661][234]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.22.36:661][234]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.22.36:661][234]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.22.36:662][234]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.22.36:696][234]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 1.263
+[2022.07.12-13.23.10:717][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.23.10:893][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Step2" FILE="../../../../UE4CPP/ArenaBattle/Saved/Autosaves/Game/Maps/Step2_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.07.12-13.23.11:340][249]LogSavePackage: Save=67.69ms
+[2022.07.12-13.23.11:340][249]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/Step2_Auto129DEA0CC47B09434A7CB4CB1E7D40329.tmp' to '../../../../UE4CPP/ArenaBattle/Saved/Autosaves/Game/Maps/Step2_Auto1.umap'
+[2022.07.12-13.23.11:384][249]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Saved/Autosaves/Game/Maps/Step2_Auto1.umap
+[2022.07.12-13.23.11:415][249]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Step2' took 0.689
+[2022.07.12-13.23.11:419][249]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.689
+[2022.07.12-13.28.34:999][ 73]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.28.35:011][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.28.35:012][ 73]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:28:35)
+[2022.07.12-13.28.35:012][ 73]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.28.35:015][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002654s)
+[2022.07.12-13.28.35:016][ 73]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.28.35:016][ 73]LogPlayLevel: PIE: World Init took: (0.001336s)
+[2022.07.12-13.28.35:016][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.004386s)
+[2022.07.12-13.28.35:077][ 73]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.28.35:092][ 73]LogInit: FAudioDevice initialized.
+[2022.07.12-13.28.35:122][ 73]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.28.35:123][ 73]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.28.35
+[2022.07.12-13.28.35:124][ 73]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.28.35:124][ 73]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.28.35:124][ 73]LogWorld: Bringing up level for play took: 0.001738
+[2022.07.12-13.28.35:125][ 73]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.28.35:125][ 73]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.28.35:125][ 73]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.28.35:126][ 73]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.28.35:126][ 73]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.28.35:126][ 73]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.28.35:126][ 73]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: -0.307
+[2022.07.12-13.28.35:849][152]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.36:913][262]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(63)
+[2022.07.12-13.28.37:044][269]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.38:168][404]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.38:946][495]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.38:987][500]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.28.38:987][500]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.38:988][500]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.28.38:988][500]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.39:521][564]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.39:737][590]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.39:754][592]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.28.39:754][592]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.39:755][592]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.28.39:755][592]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.41:212][767]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.41:429][793]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.41:645][819]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.41:696][825]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.28.41:696][825]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.41:696][825]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.28.41:696][825]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.42:829][961]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.43:046][987]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.43:062][989]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.28.43:063][989]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.43:063][989]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.28.43:063][989]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.43:754][ 72]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.43:796][ 77]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.28.43:796][ 77]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.43:797][ 77]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.28.43:797][ 77]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.44:513][163]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.44:554][168]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.28.44:554][168]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.44:555][168]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.28.44:555][168]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.45:079][231]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.45:296][257]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.45:512][283]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.28.46:380][387]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.28.46:380][387]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.28.46:380][387]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.28.46:380][387]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.17:096][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.29.25:362][ 53]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.29.25:374][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.29.25:374][ 53]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:29:25)
+[2022.07.12-13.29.25:375][ 53]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.29.25:377][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002528s)
+[2022.07.12-13.29.25:378][ 53]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.29.25:378][ 53]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2022.07.12-13.29.25:378][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003766s)
+[2022.07.12-13.29.25:438][ 53]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.29.25:458][ 53]LogInit: FAudioDevice initialized.
+[2022.07.12-13.29.25:494][ 53]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.29.25:499][ 53]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.29.25
+[2022.07.12-13.29.25:500][ 53]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.29.25:501][ 53]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.29.25:502][ 53]LogWorld: Bringing up level for play took: 0.006232
+[2022.07.12-13.29.25:503][ 53]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.29.25:504][ 53]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.29.25:506][ 53]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.29.25:507][ 53]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.29.25:507][ 53]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.29.25:508][ 53]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.29.25:509][ 53]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.075
+[2022.07.12-13.29.26:938][222]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(63)
+[2022.07.12-13.29.28:414][399]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.29.28:455][404]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.29.28:456][404]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.28:456][404]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.29.28:456][404]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.31:513][771]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.29.31:555][776]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.29.31:556][776]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.31:556][776]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.29.31:556][776]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.34:656][148]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.29.34:698][153]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.29.34:698][153]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.34:698][153]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.29.34:699][153]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.35:649][267]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.29.35:691][272]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.29.35:691][272]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.35:691][272]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.29.35:691][272]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.42:782][123]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.29.42:824][128]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.29.42:824][128]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.42:824][128]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.29.42:824][128]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.29.56:286][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.30.17:183][637]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.07.12-13.30.17:200][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:200][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:200][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:201][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:201][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:201][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:201][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:201][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:201][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:201][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:201][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:202][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:202][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:202][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:202][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:202][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:202][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:202][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:202][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:203][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:203][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:203][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:203][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:203][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:203][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:203][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:203][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:204][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:204][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:204][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:204][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:204][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:204][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:204][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:205][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:205][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:205][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:205][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:205][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:205][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:205][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:205][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:206][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:206][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:206][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:206][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:206][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:206][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:206][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:206][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:207][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:207][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:207][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:207][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:207][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:207][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:207][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:208][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:208][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:208][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:208][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:208][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:208][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:208][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:208][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:209][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:209][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:209][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:209][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:209][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:209][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:209][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:209][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:210][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:210][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:210][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:210][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:210][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:210][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:210][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:210][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:211][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:211][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:211][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:211][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:211][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:211][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:211][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:211][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:212][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:212][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:212][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:212][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:212][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:212][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:212][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:212][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:213][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:213][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:213][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:213][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:213][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:213][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:214][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:214][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:214][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:214][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:214][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:214][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:214][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:214][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:215][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:215][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:215][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:215][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:221][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:234][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:235][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:243][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:256][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:257][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:258][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:259][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:320][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:321][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:321][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.30.17:341][637]LogVSAccessor: Warning: Couldn't access module table
+[2022.07.12-13.34.25:764][383]LogHotReload: New module detected: UE4Editor-ArenaBattle-1347.dll
+[2022.07.12-13.34.26:781][387]LogHotReload: Starting Hot-Reload from IDE
+[2022.07.12-13.34.27:179][387]LogClass: ABCharacterData HotReload.
+[2022.07.12-13.34.27:183][387]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2022.07.12-13.34.27:353][387]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2022.07.12-13.34.27:461][387]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2022.07.12-13.34.27:534][387]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0008 seconds. Added 12 classes and 2 folders.
+[2022.07.12-13.34.27:535][387]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2022.07.12-13.34.27:565][387]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2465 classes and 562 folders.
+[2022.07.12-13.34.27:572][387]Display: HotReload took  0.8s.
+[2022.07.12-13.34.32:579][402]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.34.32:592][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.34.32:593][402]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:34:32)
+[2022.07.12-13.34.32:593][402]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.34.32:595][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001984s)
+[2022.07.12-13.34.32:596][402]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.34.32:596][402]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2022.07.12-13.34.32:596][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003206s)
+[2022.07.12-13.34.32:654][402]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.34.32:673][402]LogInit: FAudioDevice initialized.
+[2022.07.12-13.34.32:702][402]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.34.32:703][402]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.34.32
+[2022.07.12-13.34.32:704][402]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.34.32:704][402]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.34.32:704][402]LogWorld: Bringing up level for play took: 0.001613
+[2022.07.12-13.34.32:704][402]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.34.32:705][402]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.34.32:705][402]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.34.32:705][402]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.34.32:706][402]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.34.32:706][402]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.34.32:706][402]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: -0.727
+[2022.07.12-13.34.37:564][974]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.34.51:735][671]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.36.44:778][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/GameData/ABCharacterData" FILE="../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset" SILENT=true
+[2022.07.12-13.36.44:786][130]LogSavePackage: Save=3.12ms
+[2022.07.12-13.36.44:786][130]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/ABCharacterData4CE2ABC846E3BF100CB25CBD36D23F4B.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset'
+[2022.07.12-13.36.44:787][130]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset
+[2022.07.12-13.36.45:538][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/GameData/ABCharacterData" FILE="../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset" SILENT=true
+[2022.07.12-13.36.45:544][220]LogSavePackage: Save=2.43ms
+[2022.07.12-13.36.45:544][220]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/ABCharacterData5409B5CE4F4B06ADDDFBD593B5543B28.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset'
+[2022.07.12-13.36.45:545][220]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset
+[2022.07.12-13.36.45:746][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/GameData/ABCharacterData" FILE="../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset" SILENT=true
+[2022.07.12-13.36.45:753][244]LogSavePackage: Save=2.53ms
+[2022.07.12-13.36.45:753][244]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/ABCharacterData915607AD4E5199AE1E7D38B4F84C3E3C.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset'
+[2022.07.12-13.36.45:754][244]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset
+[2022.07.12-13.36.45:928][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/GameData/ABCharacterData" FILE="../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset" SILENT=true
+[2022.07.12-13.36.45:934][265]LogSavePackage: Save=2.59ms
+[2022.07.12-13.36.45:934][265]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/ABCharacterData318C73E94262A9B98598388E68225959.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset'
+[2022.07.12-13.36.45:935][265]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset
+[2022.07.12-13.36.46:102][285]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/GameData/ABCharacterData" FILE="../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset" SILENT=true
+[2022.07.12-13.36.46:108][285]LogSavePackage: Save=2.41ms
+[2022.07.12-13.36.46:108][285]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/ABCharacterData340F010243686E34A5143D901DC9FAAD.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset'
+[2022.07.12-13.36.46:109][285]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset
+[2022.07.12-13.36.48:557][576]LogSlate: Window 'ABCharacterData' being destroyed
+[2022.07.12-13.36.48:562][576]LogSlate: Window 'ABCharacterData' being destroyed
+[2022.07.12-13.36.51:682][941]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.36.51:693][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.36.51:694][941]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:36:51)
+[2022.07.12-13.36.51:694][941]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.36.51:696][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002030s)
+[2022.07.12-13.36.51:697][941]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.36.51:697][941]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2022.07.12-13.36.51:697][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003258s)
+[2022.07.12-13.36.51:755][941]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.36.51:774][941]LogInit: FAudioDevice initialized.
+[2022.07.12-13.36.51:805][941]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.36.51:806][941]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.36.51
+[2022.07.12-13.36.51:807][941]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.36.51:807][941]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.36.51:807][941]LogWorld: Bringing up level for play took: 0.001563
+[2022.07.12-13.36.51:807][941]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.36.51:808][941]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.36.51:808][941]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.36.51:808][941]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.36.51:809][941]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.36.51:809][941]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.36.51:809][941]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.376
+[2022.07.12-13.36.53:914][191]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.36.55:839][422]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.36.56:639][518]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(63)
+[2022.07.12-13.36.56:822][540]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.36.57:804][657]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.36.59:184][823]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.36.59:226][828]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.36.59:226][828]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.36.59:227][828]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.36.59:227][828]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.37.00:351][963]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.00:393][968]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.37.00:393][968]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.37.00:393][968]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.37.00:394][968]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.37.01:318][ 79]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.01:360][ 84]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.37.01:360][ 84]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.37.01:361][ 84]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.37.01:361][ 84]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.37.08:052][884]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.08:803][974]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.09:019][  0]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.09:903][106]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.10:119][132]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.10:969][232]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.11:586][306]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.11:795][331]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.12:021][358]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.13:779][569]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.14:537][660]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.37.14:578][665]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.37.14:578][665]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.37.14:578][665]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.37.14:578][665]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.37.29:845][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.37.29:936][500]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.37.29:948][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.37.29:949][500]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:37:29)
+[2022.07.12-13.37.29:949][500]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.37.29:951][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002093s)
+[2022.07.12-13.37.29:952][500]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.37.29:952][500]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2022.07.12-13.37.29:952][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003204s)
+[2022.07.12-13.37.30:011][500]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.37.30:030][500]LogInit: FAudioDevice initialized.
+[2022.07.12-13.37.30:060][500]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.37.30:061][500]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.37.30
+[2022.07.12-13.37.30:062][500]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.37.30:062][500]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.37.30:062][500]LogWorld: Bringing up level for play took: 0.001630
+[2022.07.12-13.37.30:062][500]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.37.30:062][500]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.37.30:062][500]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.37.30:063][500]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.37.30:063][500]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.37.30:063][500]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.37.30:063][500]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.63
+[2022.07.12-13.37.36:419][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.37.45:627][358]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.37.45:639][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.37.45:639][358]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:37:45)
+[2022.07.12-13.37.45:639][358]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.37.45:641][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002013s)
+[2022.07.12-13.37.45:642][358]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.37.45:642][358]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2022.07.12-13.37.45:642][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003029s)
+[2022.07.12-13.37.45:700][358]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.37.45:720][358]LogInit: FAudioDevice initialized.
+[2022.07.12-13.37.45:757][358]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.37.45:761][358]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.37.45
+[2022.07.12-13.37.45:762][358]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.37.45:763][358]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.37.45:764][358]LogWorld: Bringing up level for play took: 0.005334
+[2022.07.12-13.37.45:765][358]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.37.45:766][358]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.37.45:767][358]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.37.45:768][358]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.37.45:768][358]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.37.45:769][358]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.37.45:770][358]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.336
+[2022.07.12-13.37.47:286][537]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.38.01:469][153]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.38.01:481][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.38.01:481][153]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:38:01)
+[2022.07.12-13.38.01:481][153]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.38.01:483][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001619s)
+[2022.07.12-13.38.01:484][153]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.38.01:484][153]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2022.07.12-13.38.01:484][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.002656s)
+[2022.07.12-13.38.01:543][153]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.38.01:563][153]LogInit: FAudioDevice initialized.
+[2022.07.12-13.38.01:596][153]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.38.01:602][153]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.38.01
+[2022.07.12-13.38.01:604][153]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.38.01:605][153]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.38.01:606][153]LogWorld: Bringing up level for play took: 0.007311
+[2022.07.12-13.38.01:608][153]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.38.01:609][153]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.38.01:611][153]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.38.01:612][153]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.38.01:612][153]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.38.01:613][153]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.38.01:614][153]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.18
+[2022.07.12-13.38.02:857][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.38.11:208][256]Cmd: SELECT NONE
+[2022.07.12-13.38.11:705][276]Cmd: SELECT NONE
+[2022.07.12-13.38.23:800][636]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2022.07.12-13.38.24:335][636]LogUObjectGlobals: Created PersistentFrame Addr=0x00000236cc75c738, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2022.07.12-13.38.24:343][636]LogUObjectGlobals: Created PersistentFrame Addr=0x00000236cc75c700, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2022.07.12-13.38.53:987][840]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.07.12-13.38.57:738][978]LogSlate: Window '블루프린트 부모변경' being destroyed
+[2022.07.12-13.38.57:744][978]LogBlueprint: Warning: Reparenting blueprint WidgetBlueprint /Game/Book/UI/UI_HPBar.UI_HPBar from ABCharacterWidget to UserWidget...
+[2022.07.12-13.38.57:900][978]BlueprintLog: New page: UI_HPBar 컴파일
+[2022.07.12-13.38.59:418][124]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.07.12-13.39.00:294][226]LogBlueprint: Warning: Reparenting blueprint WidgetBlueprint /Game/Book/UI/UI_HPBar.UI_HPBar from UserWidget to ABCharacterWidget...
+[2022.07.12-13.39.00:298][226]BlueprintLog: New page: UI_HPBar 컴파일
+[2022.07.12-13.39.09:068][266]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.39.09:082][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.39.09:083][266]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:39:09)
+[2022.07.12-13.39.09:083][266]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.39.09:085][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002042s)
+[2022.07.12-13.39.09:086][266]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.39.09:086][266]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2022.07.12-13.39.09:086][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003407s)
+[2022.07.12-13.39.09:147][266]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.39.09:167][266]LogInit: FAudioDevice initialized.
+[2022.07.12-13.39.09:211][266]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.39.09:213][266]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.39.09
+[2022.07.12-13.39.09:213][266]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.39.09:213][266]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.39.09:214][266]LogWorld: Bringing up level for play took: 0.001890
+[2022.07.12-13.39.09:214][266]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.39.09:214][266]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.39.09:215][266]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.39.09:215][266]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.39.09:215][266]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.39.09:216][266]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.39.09:216][266]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: -0.217
+[2022.07.12-13.39.14:445][890]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.39.14:487][895]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.39.14:487][895]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.14:487][895]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.39.14:488][895]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.15:512][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.39.18:633][391]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.39.18:674][396]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.39.18:674][396]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.18:674][396]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.39.18:675][396]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.19:391][482]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.39.19:433][487]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.39.19:433][487]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.19:433][487]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.39.19:434][487]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.20:284][589]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.39.20:325][594]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.39.20:325][594]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.20:325][594]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.39.20:326][594]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.21:283][709]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.39.22:100][807]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.39.25:233][172]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.39.25:239][172]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.07.12-13.39.27:499][317]LogSlate: Window '블루프린트 부모변경' being destroyed
+[2022.07.12-13.39.27:504][317]LogBlueprint: Warning: Reparenting blueprint WidgetBlueprint /Game/Book/UI/UI_HPBar.UI_HPBar from ABCharacterWidget to UserWidget...
+[2022.07.12-13.39.27:509][317]BlueprintLog: New page: UI_HPBar 컴파일
+[2022.07.12-13.39.29:445][539]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.39.29:460][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.39.29:461][539]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:39:29)
+[2022.07.12-13.39.29:461][539]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.39.29:463][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001644s)
+[2022.07.12-13.39.29:463][539]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.39.29:463][539]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2022.07.12-13.39.29:464][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.002698s)
+[2022.07.12-13.39.29:527][539]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.39.29:541][539]LogInit: FAudioDevice initialized.
+[2022.07.12-13.39.29:576][539]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.39.29:578][539]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.39.29
+[2022.07.12-13.39.29:578][539]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.39.29:578][539]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.39.29:578][539]LogWorld: Bringing up level for play took: 0.001877
+[2022.07.12-13.39.29:579][539]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.39.29:579][539]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.39.29:580][539]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.39.29:580][539]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.39.29:580][539]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.39.29:580][539]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.39.29:581][539]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.147
+[2022.07.12-13.39.30:439][639]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.39.30:713][672]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(63)
+[2022.07.12-13.39.32:998][946]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.39.33:040][951]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.39.33:040][951]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.33:040][951]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.39.33:040][951]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.33:649][ 24]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.39.33:690][ 29]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.39.33:691][ 29]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.33:691][ 29]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.39.33:691][ 29]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.39.38:038][540]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2022.07.12-13.39.38:043][540]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.07.12-13.39.42:232][ 39]LogBlueprint: Warning: Reparenting blueprint WidgetBlueprint /Game/Book/UI/UI_HPBar.UI_HPBar from UserWidget to ABCharacterWidget...
+[2022.07.12-13.39.42:237][ 39]BlueprintLog: New page: UI_HPBar 컴파일
+[2022.07.12-13.39.54:571][509]BlueprintLog: New page: UI_HPBar 컴파일
+[2022.07.12-13.39.56:228][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/UI/UI_HPBar" FILE="../../../../UE4CPP/ArenaBattle/Content/Book/UI/UI_HPBar.uasset" SILENT=true
+[2022.07.12-13.39.56:282][697]LogSavePackage: Save=49.26ms
+[2022.07.12-13.39.56:282][697]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/UI_HPBarAEB278CA434B847E9315F8B2C2D1C96D.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Book/UI/UI_HPBar.uasset'
+[2022.07.12-13.39.56:284][697]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Book/UI/UI_HPBar.uasset
+[2022.07.12-13.39.57:391][829]BlueprintLog: New page: UI_HPBar 컴파일
+[2022.07.12-13.40.03:195][515]LogSlate: Window 'UI_HPBar' being destroyed
+[2022.07.12-13.40.03:199][515]LogSlate: Window 'UI_HPBar' being destroyed
+[2022.07.12-13.40.04:384][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SQUARE)
+[2022.07.12-13.40.05:268][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.40.05:387][747]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.40.05:398][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.40.05:398][747]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:40:05)
+[2022.07.12-13.40.05:399][747]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.40.05:400][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001635s)
+[2022.07.12-13.40.05:401][747]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.40.05:401][747]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2022.07.12-13.40.05:401][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.002579s)
+[2022.07.12-13.40.05:465][747]LogInit: XAudio2 using '스피커(High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.07.12-13.40.05:485][747]LogInit: FAudioDevice initialized.
+[2022.07.12-13.40.05:516][747]LogLoad: Game class is 'ABGameMode'
+[2022.07.12-13.40.05:517][747]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 0) at 2022.07.12-22.40.05
+[2022.07.12-13.40.05:518][747]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.40.05:518][747]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.40.05:518][747]LogWorld: Bringing up level for play took: 0.001516
+[2022.07.12-13.40.05:518][747]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(9)
+[2022.07.12-13.40.05:519][747]ArenaBattle: Warning: AABGameMode::PostLogin(25) PostLogin Begin
+[2022.07.12-13.40.05:519][747]LogDataTable: Error: UDataTable::FindRow : '' specified incorrect type for DataTable '/Game/Book/GameData/ABCharacterData.ABCharacterData'.
+[2022.07.12-13.40.05:519][747]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(45) Level (1) data doesn't exist
+[2022.07.12-13.40.05:520][747]ArenaBattle: Warning: AABPlayerController::Possess(15)
+[2022.07.12-13.40.05:520][747]ArenaBattle: Warning: AABGameMode::PostLogin(27) PostLogin End
+[2022.07.12-13.40.05:520][747]PIE: /Game/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.087
+[2022.07.12-13.40.06:626][877]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(63)
+[2022.07.12-13.40.07:992][ 41]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_8bb2923c114b6dd6bf5ca42f050e0d6c>::operator ()(171) OnNextAttackCheck
+[2022.07.12-13.40.08:034][ 46]ArenaBattle: Warning: AABCharacter::AttackCheck(381) Hit Actor Name : ABCharacter_4
+[2022.07.12-13.40.08:034][ 46]ArenaBattle: Error: UABCharacterStatComponent::GetAttack(68) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.40.08:034][ 46]ArenaBattle: Warning: AABCharacter::TakeDamage(392) Actor : ABCharacter_4 took Damage : 0.000000
+[2022.07.12-13.40.08:035][ 46]ArenaBattle: Error: UABCharacterStatComponent::SetDamage(51) ASSERTION : 'nullptr != CurrentStatData'
+[2022.07.12-13.40.30:748][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2022.07.12-13.41.31:319][961]LogSlate: Window 'Delete Assets' being destroyed
+[2022.07.12-13.42.31:577][598]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 C:/Users/guldd/Desktop/unreal-c-example-4.22v/Resource/Chapter11/ABCharacterData.csv)
+[2022.07.12-13.42.40:265][598]LogSlate: Window '데이터테이블 옵션' being destroyed
+[2022.07.12-13.42.40:315][598]LogCSVImportFactory: Imported DataTable 'ABCharacterData' - 0 Problems
+[2022.07.12-13.42.43:400][941]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Step2' took 0.010
+[2022.07.12-13.42.43:402][941]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Book/GameData/ABCharacterData] ([1] browsable assets)...
+[2022.07.12-13.42.43:402][941]OBJ SavePackage: Finished generating thumbnails for package [/Game/Book/GameData/ABCharacterData]
+[2022.07.12-13.42.43:402][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/GameData/ABCharacterData" FILE="../../../../UE4CPP/ArenaBattle/Saved/Autosaves/Game/Book/GameData/ABCharacterData_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.07.12-13.42.43:406][941]LogSavePackage: Save=2.51ms
+[2022.07.12-13.42.43:406][941]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/ABCharacterData_Auto2DCC3D2CB4F310CEB3FAF179AE878796F.tmp' to '../../../../UE4CPP/ArenaBattle/Saved/Autosaves/Game/Book/GameData/ABCharacterData_Auto2.uasset'
+[2022.07.12-13.42.43:407][941]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Saved/Autosaves/Game/Book/GameData/ABCharacterData_Auto2.uasset
+[2022.07.12-13.42.43:407][941]LogFileHelpers: Auto-saving content packages took 0.006
+[2022.07.12-13.42.50:432][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/GameData/ABCharacterData" FILE="../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset" SILENT=true
+[2022.07.12-13.42.50:436][776]LogSavePackage: Save=2.57ms
+[2022.07.12-13.42.50:436][776]LogSavePackage: Moving '../../../../UE4CPP/ArenaBattle/Saved/ABCharacterData2713E10049B25635FA1D68802C9944E3.tmp' to '../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset'
+[2022.07.12-13.42.50:436][776]LogSavePackage: Display: Finished SavePackage ../../../../UE4CPP/ArenaBattle/Content/Book/GameData/ABCharacterData.uasset
+[2022.07.12-13.42.55:940][434]LogSlate: Window 'ABCharacterData' being destroyed
+[2022.07.12-13.42.55:944][434]LogSlate: Window 'ABCharacterData' being destroyed
+[2022.07.12-13.43.03:893][369]ArenaBattle: Warning: AABPawn::PostInitializeComponents(66)
+[2022.07.12-13.43.03:894][369]ArenaBattle: Error: UABCharacterStatComponent::SetNewLevel(36) ASSERTION : 'nullptr != ABGameInstance'
+[2022.07.12-13.43.33:727][ 33]LogTemp: Repeating last play command: 선택된 뷰포트
+[2022.07.12-13.43.33:738][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.07.12-13.43.33:738][ 33]PIE: New page: PIE 세션: Step2 (2022. 7. 13. 오전 7:43:33)
+[2022.07.12-13.43.33:738][ 33]ArenaBattle: Error: UABGameInstance::UABGameInstance(12) ASSERTION : 'ABCharacterTable->RowMap.Num() > 0'
+[2022.07.12-13.43.33:738][ 33]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Step2
+[2022.07.12-13.43.33:741][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001960s)
+[2022.07.12-13.43.33:741][ 33]LogAIModule: Creating AISystem for world Step2
+[2022.07.12-13.43.33:742][ 33]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2022.07.12-13.43.33:742][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Step2.Step2 to /Game/Maps/UEDPIE_0_Step2.Step2 (0.003168s)
+[2022.07.12-13.43.33:802][ 33]LogUObjectBase: Error: Object flags are invalid or either Class or Outer is misaligned
+[2022.07.12-13.43.33:802][ 33]LogWindows: Windows GetLastError: 작업을 완료했습니다. (0)
+[2022.07.12-13.44.33:875][ 33]LogThreadingWindows: Error: Runnable thread TaskGraphThreadNP 0 crashed.
+[2022.07.12-13.44.33:875][ 33]LogWindows: Error: === Critical error: ===
+[2022.07.12-13.44.33:875][ 33]LogWindows: Error: 
+[2022.07.12-13.44.33:875][ 33]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\GarbageCollection.cpp] [Line: 579] 
+[2022.07.12-13.44.33:875][ 33]LogWindows: Error: Invalid object in GC: 0x000002362d648b80, ReferencingObject: ABGameInstance /Engine/Transient.UnrealEdEngine_0:ABGameInstance_14, ReferencingObjectClass: Class /Script/ArenaBattle.ABGameInstance, Property Name: ABCharacterTable, Offset: 248, TokenIndex: 8
+[2022.07.12-13.44.33:875][ 33]LogWindows: Error: 
+[2022.07.12-13.44.33:875][ 33]LogWindows: Error: 
+[2022.07.12-13.44.33:875][ 33]LogWindows: Error: 
+[2022.07.12-13.44.33:875][ 33]LogWindows: Error: Crash in runnable thread TaskGraphThreadNP 0
+[2022.07.12-13.44.34:046][ 33]LogExit: Executing StaticShutdownAfterError
+[2022.07.12-13.44.34:046][ 33]LogWindows: FPlatformMisc::RequestExit(1)
+[2022.07.12-13.44.34:046][ 33]Log file closed, 07/12/22 22:44:34
