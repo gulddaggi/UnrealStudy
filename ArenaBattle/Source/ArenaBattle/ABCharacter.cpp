@@ -7,7 +7,7 @@
 #include "DrawDebugHelpers.h"
 #include "WidgetComponent.h"
 #include "ABCharacterWidget.h"
-
+#include "ABAIController.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -31,6 +31,9 @@ AABCharacter::AABCharacter()
 
 	MaxCombo = 4;
 	AttackEndComboState();
+
+	AIControllerClass = AABAIController::StaticClass();
+	AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
 
 	HPBarWidget->SetRelativeLocation(FVector(0.0f, 0.0f, 180.0f));
 	HPBarWidget->SetWidgetSpace(EWidgetSpace::Screen);
@@ -269,6 +272,7 @@ void AABCharacter::OnAttackMontageEnded(UAnimMontage * Montage, bool bInterrupte
 	ABCHECK(CurrentCombo > 0);
 	IsAttacking = false;
 	AttackEndComboState();
+	OnAttackEnd.Broadcast();
 }
 
 
@@ -292,6 +296,7 @@ void AABCharacter::SetControlMode(EControlMode NewControlMode)
 		GetCharacterMovement()->bUseControllerDesiredRotation = false;
 		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
 		break;
+
 	case EControlMode::DIABLO:
 		//SpringArm->TargetArmLength = 800.0f;
 		//SpringArm->SetRelativeRotation(FRotator(-45.0f, 0.0f, 0.0f));
@@ -307,9 +312,14 @@ void AABCharacter::SetControlMode(EControlMode NewControlMode)
 		GetCharacterMovement()->bUseControllerDesiredRotation = true;
 		GetCharacterMovement()->RotationRate = FRotator(0.0f, 720.0f, 0.0f);
 		break;
+
+	case EControlMode::NPC:
+		bUseControllerRotationYaw = false;
+		GetCharacterMovement()->bUseControllerDesiredRotation = false;
+		GetCharacterMovement()->bOrientRotationToMovement = true;
+		GetCharacterMovement()->RotationRate = FRotator(0.0f, 480.0f, 0.0f);
+		break;
 	}
-
-
 }
 
 void AABCharacter::ViewChange()
@@ -393,4 +403,20 @@ float AABCharacter::TakeDamage(float DamageAmount, FDamageEvent const & DamageEv
 
 	CharacterStat->SetDamage(FinalDamage);
 	return FinalDamage;
+}
+
+void AABCharacter::PossessedBy(AController * NewController)
+{
+	Super::PossessedBy(NewController);
+
+	if (IsPlayerControlled())
+	{
+		SetControlMode(EControlMode::DIABLO);
+		GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+	}
+	else
+	{
+		SetControlMode(EControlMode::NPC);
+		GetCharacterMovement()->MaxWalkSpeed = 300.0f;
+	}
 }

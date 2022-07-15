@@ -1,3 +1,4 @@
+D:\UE4CPP\ArenaBattle\Source\ArenaBattle\ABAIController.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\ABAnimInstance.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\ABCharacter.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\ABCharacterStatComponent.h
@@ -8,4 +9,9 @@ D:\UE4CPP\ArenaBattle\Source\ArenaBattle\ABItemBox.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\ABPawn.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\ABPlayerController.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\ABWeapon.h
+D:\UE4CPP\ArenaBattle\Source\ArenaBattle\BTDecorator_IsInAttackRange.h
+D:\UE4CPP\ArenaBattle\Source\ArenaBattle\BTService_Detect.h
+D:\UE4CPP\ArenaBattle\Source\ArenaBattle\BTTask_Attack.h
+D:\UE4CPP\ArenaBattle\Source\ArenaBattle\BTTask_FindPatrolPos.h
+D:\UE4CPP\ArenaBattle\Source\ArenaBattle\BTTask_TurnToTarget.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Fountain.h

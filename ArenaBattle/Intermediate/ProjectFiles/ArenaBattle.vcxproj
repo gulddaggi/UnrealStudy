@@ -414,6 +414,8 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
+    <ClCompile Include="..\..\Source\ArenaBattle\ABAIController.cpp" />
+    <ClInclude Include="..\..\Source\ArenaBattle\ABAIController.h" />
     <ClCompile Include="..\..\Source\ArenaBattle\ABAnimInstance.cpp" />
     <ClInclude Include="..\..\Source\ArenaBattle\ABAnimInstance.h" />
     <ClCompile Include="..\..\Source\ArenaBattle\ABCharacter.cpp" />
@@ -437,7 +439,17 @@
     <None Include="..\..\Source\ArenaBattle\ArenaBattle.Build.cs" />
     <ClCompile Include="..\..\Source\ArenaBattle\ArenaBattle.cpp" />
     <ClInclude Include="..\..\Source\ArenaBattle\ArenaBattle.h" />
+    <ClCompile Include="..\..\Source\ArenaBattle\BTDecorator_IsInAttackRange.cpp" />
+    <ClInclude Include="..\..\Source\ArenaBattle\BTDecorator_IsInAttackRange.h" />
+    <ClCompile Include="..\..\Source\ArenaBattle\BTService_Detect.cpp" />
+    <ClInclude Include="..\..\Source\ArenaBattle\BTService_Detect.h" />
+    <ClCompile Include="..\..\Source\ArenaBattle\BTTask_Attack.cpp" />
+    <ClCompile Include="..\..\Source\ArenaBattle\BTTask_FindPatrolPos.cpp" />
+    <ClInclude Include="..\..\Source\ArenaBattle\BTTask_Attack.h" />
+    <ClInclude Include="..\..\Source\ArenaBattle\BTTask_FindPatrolPos.h" />
+    <ClCompile Include="..\..\Source\ArenaBattle\BTTask_TurnToTarget.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Fountain.cpp" />
+    <ClInclude Include="..\..\Source\ArenaBattle\BTTask_TurnToTarget.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Fountain.h" />
   </ItemGroup>
   <PropertyGroup>
