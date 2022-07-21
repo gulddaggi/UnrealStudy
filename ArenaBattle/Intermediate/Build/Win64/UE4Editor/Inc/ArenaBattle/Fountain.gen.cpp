@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "Fountain.h"
+#include "Public/Fountain.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -41,14 +41,14 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "Fountain.h" },
-				{ "ModuleRelativePath", "Fountain.h" },
+				{ "ModuleRelativePath", "Public/Fountain.h" },
 			};
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Movement_MetaData[] = {
 				{ "Category", "Fountain" },
 				{ "EditInline", "true" },
-				{ "ModuleRelativePath", "Fountain.h" },
+				{ "ModuleRelativePath", "Public/Fountain.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Movement = { UE4CodeGen_Private::EPropertyClass::Object, "Movement", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFountain, Movement), Z_Construct_UClass_URotatingMovementComponent_NoRegister, METADATA_PARAMS(NewProp_Movement_MetaData, ARRAY_COUNT(NewProp_Movement_MetaData)) };
@@ -56,14 +56,14 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RotateSpeed_MetaData[] = {
 				{ "AllowPrivateAccess", "TRUE" },
 				{ "Category", "Stat" },
-				{ "ModuleRelativePath", "Fountain.h" },
+				{ "ModuleRelativePath", "Public/Fountain.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RotateSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "RotateSpeed", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AFountain, RotateSpeed), METADATA_PARAMS(NewProp_RotateSpeed_MetaData, ARRAY_COUNT(NewProp_RotateSpeed_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ID_MetaData[] = {
 				{ "Category", "ID" },
-				{ "ModuleRelativePath", "Fountain.h" },
+				{ "ModuleRelativePath", "Public/Fountain.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FIntPropertyParams NewProp_ID = { UE4CodeGen_Private::EPropertyClass::Int, "ID", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000001, 1, nullptr, STRUCT_OFFSET(AFountain, ID), METADATA_PARAMS(NewProp_ID_MetaData, ARRAY_COUNT(NewProp_ID_MetaData)) };
@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Splash_MetaData[] = {
 				{ "Category", "Fountain" },
 				{ "EditInline", "true" },
-				{ "ModuleRelativePath", "Fountain.h" },
+				{ "ModuleRelativePath", "Public/Fountain.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Splash = { UE4CodeGen_Private::EPropertyClass::Object, "Splash", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFountain, Splash), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(NewProp_Splash_MetaData, ARRAY_COUNT(NewProp_Splash_MetaData)) };
@@ -79,7 +79,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Light_MetaData[] = {
 				{ "Category", "Fountain" },
 				{ "EditInline", "true" },
-				{ "ModuleRelativePath", "Fountain.h" },
+				{ "ModuleRelativePath", "Public/Fountain.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Light = { UE4CodeGen_Private::EPropertyClass::Object, "Light", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFountain, Light), Z_Construct_UClass_UPointLightComponent_NoRegister, METADATA_PARAMS(NewProp_Light_MetaData, ARRAY_COUNT(NewProp_Light_MetaData)) };
@@ -87,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Water_MetaData[] = {
 				{ "Category", "Fountain" },
 				{ "EditInline", "true" },
-				{ "ModuleRelativePath", "Fountain.h" },
+				{ "ModuleRelativePath", "Public/Fountain.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Water = { UE4CodeGen_Private::EPropertyClass::Object, "Water", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFountain, Water), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_Water_MetaData, ARRAY_COUNT(NewProp_Water_MetaData)) };
@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Body_MetaData[] = {
 				{ "Category", "Fountain" },
 				{ "EditInline", "true" },
-				{ "ModuleRelativePath", "Fountain.h" },
+				{ "ModuleRelativePath", "Public/Fountain.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Body = { UE4CodeGen_Private::EPropertyClass::Object, "Body", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AFountain, Body), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(NewProp_Body_MetaData, ARRAY_COUNT(NewProp_Body_MetaData)) };
@@ -126,7 +126,7 @@ void EmptyLinkFunctionForGeneratedCodeFountain() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFountain, 1477782892);
+	IMPLEMENT_CLASS(AFountain, 1825789654);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFountain(Z_Construct_UClass_AFountain, &AFountain::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AFountain"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFountain);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

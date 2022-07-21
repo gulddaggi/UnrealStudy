@@ -16,15 +16,27 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ArenaBattle-4819.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ArenaBattle-199.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ArenaBattle-4819.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ArenaBattle-199.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ArenaBattle-4819.lib",
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ArenaBattle-199.lib",
+			"Type": "ImportLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ArenaBattleSetting-5106.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-ArenaBattleSetting-5106.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-ArenaBattleSetting-5106.lib",
 			"Type": "ImportLibrary"
 		},
 		{

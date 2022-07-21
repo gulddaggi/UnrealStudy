@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "ABCharacterStatComponent.h"
+#include "Public/ABCharacterStatComponent.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -39,14 +39,14 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 				{ "BlueprintSpawnableComponent", "" },
 				{ "ClassGroupNames", "Custom" },
 				{ "IncludePath", "ABCharacterStatComponent.h" },
-				{ "ModuleRelativePath", "ABCharacterStatComponent.h" },
+				{ "ModuleRelativePath", "Public/ABCharacterStatComponent.h" },
 			};
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentHP_MetaData[] = {
 				{ "AllowPrivateAccess", "TRUE" },
 				{ "Category", "Stat" },
-				{ "ModuleRelativePath", "ABCharacterStatComponent.h" },
+				{ "ModuleRelativePath", "Public/ABCharacterStatComponent.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CurrentHP = { UE4CodeGen_Private::EPropertyClass::Float, "CurrentHP", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000022801, 1, nullptr, STRUCT_OFFSET(UABCharacterStatComponent, CurrentHP), METADATA_PARAMS(NewProp_CurrentHP_MetaData, ARRAY_COUNT(NewProp_CurrentHP_MetaData)) };
@@ -54,7 +54,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Level_MetaData[] = {
 				{ "AllowPrivateAccess", "TRUE" },
 				{ "Category", "Stat" },
-				{ "ModuleRelativePath", "ABCharacterStatComponent.h" },
+				{ "ModuleRelativePath", "Public/ABCharacterStatComponent.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FIntPropertyParams NewProp_Level = { UE4CodeGen_Private::EPropertyClass::Int, "Level", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000801, 1, nullptr, STRUCT_OFFSET(UABCharacterStatComponent, Level), METADATA_PARAMS(NewProp_Level_MetaData, ARRAY_COUNT(NewProp_Level_MetaData)) };
@@ -80,7 +80,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterStatComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABCharacterStatComponent, 1099213306);
+	IMPLEMENT_CLASS(UABCharacterStatComponent, 4023376841);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UABCharacterStatComponent(Z_Construct_UClass_UABCharacterStatComponent, &UABCharacterStatComponent::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("UABCharacterStatComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UABCharacterStatComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

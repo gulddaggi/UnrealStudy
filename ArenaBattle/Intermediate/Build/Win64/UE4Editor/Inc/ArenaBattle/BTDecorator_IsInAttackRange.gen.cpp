@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "BTDecorator_IsInAttackRange.h"
+#include "Public/BTDecorator_IsInAttackRange.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -37,7 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeBTDecorator_IsInAttackRange() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "BTDecorator_IsInAttackRange.h" },
-				{ "ModuleRelativePath", "BTDecorator_IsInAttackRange.h" },
+				{ "ModuleRelativePath", "Public/BTDecorator_IsInAttackRange.h" },
 			};
 #endif
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -58,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeBTDecorator_IsInAttackRange() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTDecorator_IsInAttackRange, 2425244017);
+	IMPLEMENT_CLASS(UBTDecorator_IsInAttackRange, 1847275970);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTDecorator_IsInAttackRange(Z_Construct_UClass_UBTDecorator_IsInAttackRange, &UBTDecorator_IsInAttackRange::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("UBTDecorator_IsInAttackRange"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTDecorator_IsInAttackRange);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

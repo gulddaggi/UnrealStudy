@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "ABCharacterWidget.h"
+#include "Public/ABCharacterWidget.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -38,13 +38,13 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterWidget() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "ABCharacterWidget.h" },
-				{ "ModuleRelativePath", "ABCharacterWidget.h" },
+				{ "ModuleRelativePath", "Public/ABCharacterWidget.h" },
 			};
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HPProgressBar_MetaData[] = {
 				{ "EditInline", "true" },
-				{ "ModuleRelativePath", "ABCharacterWidget.h" },
+				{ "ModuleRelativePath", "Public/ABCharacterWidget.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HPProgressBar = { UE4CodeGen_Private::EPropertyClass::Object, "HPProgressBar", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000080008, 1, nullptr, STRUCT_OFFSET(UABCharacterWidget, HPProgressBar), Z_Construct_UClass_UProgressBar_NoRegister, METADATA_PARAMS(NewProp_HPProgressBar_MetaData, ARRAY_COUNT(NewProp_HPProgressBar_MetaData)) };
@@ -69,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacterWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABCharacterWidget, 1640334770);
+	IMPLEMENT_CLASS(UABCharacterWidget, 455183665);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UABCharacterWidget(Z_Construct_UClass_UABCharacterWidget, &UABCharacterWidget::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("UABCharacterWidget"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UABCharacterWidget);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

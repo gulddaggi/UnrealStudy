@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "ABGameInstance.h"
+#include "Public/ABGameInstance.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -53,42 +53,42 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
-				{ "ModuleRelativePath", "ABGameInstance.h" },
+				{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 			};
 #endif
 			auto NewStructOpsLambda = []() -> void* { return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FABCharacterData>(); };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NextExp_MetaData[] = {
 				{ "Category", "Data" },
-				{ "ModuleRelativePath", "ABGameInstance.h" },
+				{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FIntPropertyParams NewProp_NextExp = { UE4CodeGen_Private::EPropertyClass::Int, "NextExp", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FABCharacterData, NextExp), METADATA_PARAMS(NewProp_NextExp_MetaData, ARRAY_COUNT(NewProp_NextExp_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DropExp_MetaData[] = {
 				{ "Category", "Data" },
-				{ "ModuleRelativePath", "ABGameInstance.h" },
+				{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FIntPropertyParams NewProp_DropExp = { UE4CodeGen_Private::EPropertyClass::Int, "DropExp", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FABCharacterData, DropExp), METADATA_PARAMS(NewProp_DropExp_MetaData, ARRAY_COUNT(NewProp_DropExp_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Attack_MetaData[] = {
 				{ "Category", "Data" },
-				{ "ModuleRelativePath", "ABGameInstance.h" },
+				{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Attack = { UE4CodeGen_Private::EPropertyClass::Float, "Attack", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FABCharacterData, Attack), METADATA_PARAMS(NewProp_Attack_MetaData, ARRAY_COUNT(NewProp_Attack_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxHP_MetaData[] = {
 				{ "Category", "Data" },
-				{ "ModuleRelativePath", "ABGameInstance.h" },
+				{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxHP = { UE4CodeGen_Private::EPropertyClass::Float, "MaxHP", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FABCharacterData, MaxHP), METADATA_PARAMS(NewProp_MaxHP_MetaData, ARRAY_COUNT(NewProp_MaxHP_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Level_MetaData[] = {
 				{ "Category", "Data" },
-				{ "ModuleRelativePath", "ABGameInstance.h" },
+				{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FIntPropertyParams NewProp_Level = { UE4CodeGen_Private::EPropertyClass::Int, "Level", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000000005, 1, nullptr, STRUCT_OFFSET(FABCharacterData, Level), METADATA_PARAMS(NewProp_Level_MetaData, ARRAY_COUNT(NewProp_Level_MetaData)) };
@@ -115,7 +115,7 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FABCharacterData_CRC() { return 1503961821U; }
+	uint32 Get_Z_Construct_UScriptStruct_FABCharacterData_CRC() { return 656962709U; }
 	void UABGameInstance::StaticRegisterNativesUABGameInstance()
 	{
 	}
@@ -135,12 +135,12 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "ABGameInstance.h" },
-				{ "ModuleRelativePath", "ABGameInstance.h" },
+				{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 			};
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ABCharacterTable_MetaData[] = {
-				{ "ModuleRelativePath", "ABGameInstance.h" },
+				{ "ModuleRelativePath", "Public/ABGameInstance.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ABCharacterTable = { UE4CodeGen_Private::EPropertyClass::Object, "ABCharacterTable", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000000, 1, nullptr, STRUCT_OFFSET(UABGameInstance, ABCharacterTable), Z_Construct_UClass_UDataTable_NoRegister, METADATA_PARAMS(NewProp_ABCharacterTable_MetaData, ARRAY_COUNT(NewProp_ABCharacterTable_MetaData)) };
@@ -165,7 +165,7 @@ static struct FScriptStruct_ArenaBattle_StaticRegisterNativesFABCharacterData
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABGameInstance, 3613534672);
+	IMPLEMENT_CLASS(UABGameInstance, 1267243814);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UABGameInstance(Z_Construct_UClass_UABGameInstance, &UABGameInstance::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("UABGameInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UABGameInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

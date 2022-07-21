@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "BTTask_FindPatrolPos.h"
+#include "Public/BTTask_FindPatrolPos.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -37,7 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_FindPatrolPos() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "BTTask_FindPatrolPos.h" },
-				{ "ModuleRelativePath", "BTTask_FindPatrolPos.h" },
+				{ "ModuleRelativePath", "Public/BTTask_FindPatrolPos.h" },
 			};
 #endif
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -58,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_FindPatrolPos() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTTask_FindPatrolPos, 3059946378);
+	IMPLEMENT_CLASS(UBTTask_FindPatrolPos, 978986526);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTTask_FindPatrolPos(Z_Construct_UClass_UBTTask_FindPatrolPos, &UBTTask_FindPatrolPos::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("UBTTask_FindPatrolPos"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTTask_FindPatrolPos);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

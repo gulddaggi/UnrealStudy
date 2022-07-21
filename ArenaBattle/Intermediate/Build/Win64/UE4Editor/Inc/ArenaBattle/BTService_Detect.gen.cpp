@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "BTService_Detect.h"
+#include "Public/BTService_Detect.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -37,7 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeBTService_Detect() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "BTService_Detect.h" },
-				{ "ModuleRelativePath", "BTService_Detect.h" },
+				{ "ModuleRelativePath", "Public/BTService_Detect.h" },
 			};
 #endif
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -58,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeBTService_Detect() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTService_Detect, 1286615630);
+	IMPLEMENT_CLASS(UBTService_Detect, 2968546143);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTService_Detect(Z_Construct_UClass_UBTService_Detect, &UBTService_Detect::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("UBTService_Detect"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTService_Detect);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "BTTask_TurnToTarget.h"
+#include "Public/BTTask_TurnToTarget.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -37,7 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_TurnToTarget() {}
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "BTTask_TurnToTarget.h" },
-				{ "ModuleRelativePath", "BTTask_TurnToTarget.h" },
+				{ "ModuleRelativePath", "Public/BTTask_TurnToTarget.h" },
 			};
 #endif
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -58,7 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeBTTask_TurnToTarget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBTTask_TurnToTarget, 2863099927);
+	IMPLEMENT_CLASS(UBTTask_TurnToTarget, 2905532883);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UBTTask_TurnToTarget(Z_Construct_UClass_UBTTask_TurnToTarget, &UBTTask_TurnToTarget::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("UBTTask_TurnToTarget"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UBTTask_TurnToTarget);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

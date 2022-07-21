@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "ABAIController.h"
+#include "Public/ABAIController.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -40,18 +40,18 @@ void EmptyLinkFunctionForGeneratedCodeABAIController() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "HideCategories", "Collision Rendering Utilities|Transformation" },
 				{ "IncludePath", "ABAIController.h" },
-				{ "ModuleRelativePath", "ABAIController.h" },
+				{ "ModuleRelativePath", "Public/ABAIController.h" },
 			};
 #endif
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BBAsset_MetaData[] = {
-				{ "ModuleRelativePath", "ABAIController.h" },
+				{ "ModuleRelativePath", "Public/ABAIController.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BBAsset = { UE4CodeGen_Private::EPropertyClass::Object, "BBAsset", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000000, 1, nullptr, STRUCT_OFFSET(AABAIController, BBAsset), Z_Construct_UClass_UBlackboardData_NoRegister, METADATA_PARAMS(NewProp_BBAsset_MetaData, ARRAY_COUNT(NewProp_BBAsset_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BTAsset_MetaData[] = {
-				{ "ModuleRelativePath", "ABAIController.h" },
+				{ "ModuleRelativePath", "Public/ABAIController.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BTAsset = { UE4CodeGen_Private::EPropertyClass::Object, "BTAsset", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000000, 1, nullptr, STRUCT_OFFSET(AABAIController, BTAsset), Z_Construct_UClass_UBehaviorTree_NoRegister, METADATA_PARAMS(NewProp_BTAsset_MetaData, ARRAY_COUNT(NewProp_BTAsset_MetaData)) };
@@ -77,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeABAIController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABAIController, 3074966109);
+	IMPLEMENT_CLASS(AABAIController, 3185185647);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AABAIController(Z_Construct_UClass_AABAIController, &AABAIController::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AABAIController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AABAIController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
