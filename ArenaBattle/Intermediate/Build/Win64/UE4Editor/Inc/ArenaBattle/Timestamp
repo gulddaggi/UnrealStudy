@@ -5,11 +5,15 @@ D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABCharacterStatComponent.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABCharacterWidget.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABGameInstance.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABGameMode.h
+D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABGameState.h
+D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABHUDWidget.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABItemBox.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABPawn.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABPlayerController.h
+D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABPlayerState.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABSection.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ABWeapon.h
+D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\ArenaBattle.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\BTDecorator_IsInAttackRange.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\BTService_Detect.h
 D:\UE4CPP\ArenaBattle\Source\ArenaBattle\Public\BTTask_Attack.h

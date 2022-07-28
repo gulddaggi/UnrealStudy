@@ -34,7 +34,7 @@ AABItemBox::AABItemBox()
 		Effect->bAutoActivate = false;
 	}
 
-	Box->SetRelativeLocation(FVector(0.0f, -3.5f, 30.0f));
+	Box->SetRelativeLocation(FVector(0.0f, -3.5f, 0.0f));
 	
 	Trigger->SetCollisionProfileName(TEXT("ItemBox"));
 	Box->SetCollisionProfileName(TEXT("NoCollision"));

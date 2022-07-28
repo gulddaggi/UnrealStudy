@@ -1,8 +1,20 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ABPlayerController.h"
+#include "ABHUDWidget.h"
+#include "ABPlayerState.h"
+#include "ABCharacter.h"
 
-//폰과 플레이어 컨트롤러가 생성되는 시점 파악
+
+AABPlayerController::AABPlayerController()
+{
+	static ConstructorHelpers::FClassFinder<UABHUDWidget> UI_HUD_C(TEXT("/Game/Book/UI/UI_HUD.UI_HUD_C"));
+	if (UI_HUD_C.Succeeded())
+	{
+		HUDWidgetClass = UI_HUD_C.Class;
+	}
+}
+
 void AABPlayerController::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
@@ -23,6 +35,28 @@ void AABPlayerController::BeginPlay()
 	FInputModeGameOnly InputMode;
 	SetInputMode(InputMode);
 
+	HUDWidget = CreateWidget<UABHUDWidget>(this, HUDWidgetClass);
+	HUDWidget->AddToViewport();
+
+	ABPlayerState = Cast<AABPlayerState>(PlayerState);
+	auto ABPlayerState = Cast<AABPlayerState>(PlayerState);
+	ABCHECK(nullptr != ABPlayerState);
+	HUDWidget->BindPlayerState(ABPlayerState);
+	ABPlayerState->OnPlayerStateChanged.Broadcast();
 }
 
+UABHUDWidget* AABPlayerController::GetHUDWidget() const
+{
+	return HUDWidget;
+}
+
+void AABPlayerController::NPCKill(AABCharacter* KilledNPC) const
+{
+	ABPlayerState->AddExp(KilledNPC->GetExp());
+}
+
+void AABPlayerController::AddGameScore() const
+{
+	ABPlayerState->AddGameScore();
+}
 
