@@ -83,7 +83,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9610FA7E-F3FA-4FF4-86B5-A17CF30027B0}</ProjectGuid>
+    <ProjectGuid>{B8DDD119-DA14-4AA7-A15A-A9AA6FC04E64}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>ArenaBattle</RootNamespace>
     <PlatformToolset>v141</PlatformToolset>
@@ -419,17 +419,22 @@
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABAIController.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABAnimInstance.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABCharacter.cpp" />
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABCharacterSelectWidget.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABCharacterStatComponent.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABCharacterWidget.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABGameInstance.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABGameMode.cpp" />
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABGameplayResultWidget.cpp" />
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABGameplayWidget.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABGameState.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABHUDWidget.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABItemBox.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABPawn.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABPlayerController.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABPlayerState.cpp" />
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABSaveGame.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABSection.cpp" />
+    <ClCompile Include="..\..\Source\ArenaBattle\Private\ABUIPlayerController.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ABWeapon.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\ArenaBattle.cpp" />
     <ClCompile Include="..\..\Source\ArenaBattle\Private\BTDecorator_IsInAttackRange.cpp" />
@@ -441,17 +446,22 @@
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABAIController.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABAnimInstance.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABCharacter.h" />
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABCharacterSelectWidget.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABCharacterStatComponent.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABCharacterWidget.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABGameInstance.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABGameMode.h" />
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABGameplayResultWidget.h" />
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABGameplayWidget.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABGameState.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABHUDWidget.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABItemBox.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABPawn.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABPlayerController.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABPlayerState.h" />
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABSaveGame.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABSection.h" />
+    <ClInclude Include="..\..\Source\ArenaBattle\Public\ABUIPlayerController.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ABWeapon.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\ArenaBattle.h" />
     <ClInclude Include="..\..\Source\ArenaBattle\Public\BTDecorator_IsInAttackRange.h" />

@@ -19,6 +19,4 @@ public:
 
 	UPROPERTY(config)
 		TArray<FSoftObjectPath> CharacterAssets;
-	
-	
 };

@@ -43,12 +43,20 @@ void EmptyLinkFunctionForGeneratedCodeABGameState() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bGameCleared_MetaData[] = {
+				{ "ModuleRelativePath", "Public/ABGameState.h" },
+			};
+#endif
+			auto NewProp_bGameCleared_SetBit = [](void* Obj){ ((AABGameState*)Obj)->bGameCleared = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bGameCleared = { UE4CodeGen_Private::EPropertyClass::Bool, "bGameCleared", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000002000, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AABGameState), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_bGameCleared_SetBit)>::SetBit, METADATA_PARAMS(NewProp_bGameCleared_MetaData, ARRAY_COUNT(NewProp_bGameCleared_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TotalGameScore_MetaData[] = {
 				{ "ModuleRelativePath", "Public/ABGameState.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FIntPropertyParams NewProp_TotalGameScore = { UE4CodeGen_Private::EPropertyClass::Int, "TotalGameScore", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000002000, 1, nullptr, STRUCT_OFFSET(AABGameState, TotalGameScore), METADATA_PARAMS(NewProp_TotalGameScore_MetaData, ARRAY_COUNT(NewProp_TotalGameScore_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bGameCleared,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_TotalGameScore,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -69,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABGameState, 3439898744);
+	IMPLEMENT_CLASS(AABGameState, 3623240294);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AABGameState(Z_Construct_UClass_AABGameState, &AABGameState::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AABGameState"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AABGameState);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
